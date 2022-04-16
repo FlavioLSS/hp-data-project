@@ -11,7 +11,7 @@
 
           <div class="ctt">
             <div>
-              <h2 id="h2ctt"> Criado por:</h2>
+              <h2 id="h2ctt">Developed by:</h2>
           </div>
           <div class="ctt-1">
               <h2>Flavio Silva</h2> <img class="icons-th" src="../assets/Github.png" alt="">
@@ -28,7 +28,7 @@
 
 
          
-      <h4>Copyright © 2002 - 2022 - potterwiki.com - Ano 22</h4>
+      <h4>Copyright © 2022 - potterwiki.com</h4>
     </div>
 </template>
 

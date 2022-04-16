@@ -2,12 +2,12 @@
   <div id="header">
     <div class="top-header">
       <div>
-          <h2>Feito com: xxxx</h2>
+          <h2>Developed with: PotterApi | TheHarryPotterDataBase</h2>
       </div>
       <div>
         <ul class="icons-header">
           <li>
-            <h4>Tecnologias utilizadas:</h4>
+            <h4>Technologies used:</h4>
           </li>
           <li>
             <a href="">
@@ -40,32 +40,32 @@
       <ul class="header-list">
         <li>
           <a href="">
-            <button class="btn">Personagens</button>
+            <button class="btn">Characters</button>
           </a>
         </li>
         <li>
           <a href="">
-            <button class="btn">filmes</button>
+            <button class="btn">Movies</button>
           </a>
         </li>
         <li>
           <a href="">
-            <button class="btn">dicionário</button>
+            <button class="btn">Dictionary</button>
           </a>
         </li>
         <li>
           <a href="">
-            <button class="btn">curiosidades</button>
+            <button class="btn">Curiosities</button>
           </a>
         </li>
         <li>
           <a href="">
-            <button class="btn">magias</button>
+            <button class="btn">Spells</button>
           </a>
         </li>
         <li>
           <a href="">
-            <button class="btn">livros</button>
+            <button class="btn">Books</button>
           </a>
         </li>
       </ul>

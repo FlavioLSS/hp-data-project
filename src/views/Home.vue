@@ -6,9 +6,9 @@
       </video>
 
     <div class="test">
-      <h1 class="text-background mb-2">Explore o misterioso</h1>
-      <h1 class="text-background">mundo de Hogwarts</h1>
-      <v-btn x-large class="mt-5 white--text" color="#00151c">Garanta seu acesso antecipado !</v-btn>
+      <h1 class="text-background mb-2">Explore the mysteries</h1>
+      <h1 class="text-background">inside the old Hogwarts</h1>
+      <a target="_blank" href="https://www.hogwartslegacy.com/pt-br"><v-btn x-large class="transparent-btn mt-5 white--text" color="#00151c">Get your early access now!</v-btn></a>
     </div>
   </div>
 </template>
@@ -41,7 +41,7 @@ export default {
   position: absolute;
   color: white;
   top: 400px;
-  right: 900px;
+  right: 800px;
   margin-right: 8em;
 }
 
@@ -52,5 +52,9 @@ export default {
 
 .video-wrapper{
   width: 100%;
+}
+
+.transparent-btn{
+  opacity: .8;
 }
 </style>
