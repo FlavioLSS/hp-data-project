@@ -33,9 +33,7 @@
       </div>
     </div>
     <div class="logo">
-      <a href="home.vue">
-        <h1>POTTER WIKI</h1>
-      </a>
+      <router-link to="/"><h1>POTTER WIKI</h1></router-link>
     </div>
 
     <div>

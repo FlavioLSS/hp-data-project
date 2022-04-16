@@ -42,7 +42,7 @@ export default {
   color: white;
   top: 400px;
   right: 900px;
-  margin-right: 2em;
+  margin-right: 8em;
 }
 
 .test h1{
