@@ -88,6 +88,7 @@ h4, h2{
 .ctt-1 h2{
     font-size: 18px;
     margin: 10px;
+     font-family: 'Cinzel Decorative', 'cursive';
     
 }
 
@@ -106,6 +107,7 @@ h4, h2{
     text-transform: uppercase;
     padding: 20px;
     font-size: 20px;
+    font-family: 'Cinzel Decorative', 'cursive';
 }
 
 /* footer */
