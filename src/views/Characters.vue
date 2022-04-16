@@ -9,9 +9,18 @@
       :search="search"
       :items-per-page="8"
       :loading="loading"
+      :custom-filter="filterOnlyCapsText"
       class="elevation-8 mt-10 table"
       dark
-    ></v-data-table>
+    >
+    <template v-slot:top>
+        <v-text-field
+          v-model="search"
+          label="Search character"
+          class="mx-4"
+        ></v-text-field>
+      </template>
+    </v-data-table>
       </div>
   </div>
 </template>
@@ -51,6 +60,14 @@ export default {
       console.log('erro bugado ' + err)
     })
     }, 1700);
+  },
+  methods: {
+      filterOnlyCapsText (value, search) {
+        return value != null &&
+          search != null &&
+          typeof value === 'string' &&
+          value.toString().toLowerCase().indexOf(search) !== -1
+      },
   },
 };
 </script>
