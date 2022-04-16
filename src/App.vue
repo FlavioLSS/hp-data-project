@@ -1,33 +1,33 @@
 <template>
-  <div id="app">
-    <potter-head />
-    <div id="nav">
-      <router-link to="/">Homehunnjin</router-link>
-    </div>
-    <router-view />
-    <potter-footer />
-  </div>
+  <v-app>
+      <potter-head />
+      <router-view />
+      <potter-footer />
+  </v-app>
 </template>
 
 <script>
-import potterHead from './components/potter-head.vue'
-import potterFooter from './components/potter-footer.vue'
-
-export default{
-  components: {
-    potterHead,
-    potterFooter,
-  }
-}
+import PotterFooter from './components/potter-footer.vue';
+import potterHead from './components/potter-head.vue';
+export default {
+  components: { potterHead, PotterFooter },
+  name: "App",
+  data: () => ({
+    //
+  }),
+};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative&display=swap");
+
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: arial, Helvetica, sans-serif;
     list-style: none;
+    text-transform: none;
   }
 
   a{
@@ -35,5 +35,3 @@ export default{
     color: black;
   }
 </style>
-
-
