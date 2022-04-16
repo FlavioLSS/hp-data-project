@@ -8,6 +8,9 @@
     <div class="test">
       <h1 class="text-background mb-2">Explore the mysteries</h1>
       <h1 class="text-background">inside the old Hogwarts</h1>
+      <div class="text-background text-center d-flex align-center justify-center mt-6">
+        <h2 class="red--text">AVAILABLE IN ALL PLATFORMS</h2>
+      </div>
       <a target="_blank" href="https://www.hogwartslegacy.com/pt-br"><v-btn x-large class="transparent-btn mt-5 white--text" color="#00151c">Get your early access now!</v-btn></a>
     </div>
   </div>
@@ -47,6 +50,10 @@ export default {
 
 .test h1{
   font-size: 4rem;
+  font-family: "Bitter", serif;
+}
+
+h2{
   font-family: "Bitter", serif;
 }
 
