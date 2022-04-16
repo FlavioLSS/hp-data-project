@@ -14,13 +14,24 @@
               <h2 id="h2ctt">Developed by:</h2>
           </div>
           <div class="ctt-1">
-              <h2>Flavio Silva</h2> <img class="icons-th" src="../assets/Github.png" alt="">
-              <img class="icons-th" src="../assets/linkedin.png" alt="">
+              <h2>Flavio Silva</h2> 
+              <a target="_blank" href="https://github.com/FlavioLSS">
+              <img class="icons-th" src="../assets/Github.png" alt="">
+              </a>
+              <a target="blank" href="https://www.linkedin.com/in/flavio-silva-00176022b/">
+                <img class="icons-th" src="../assets/linkedin.png" alt="">
+              </a>
+              
           </div>
 
           <div class="ctt-1">
-              <h2>Tarcísio Sena</h2> <img class="icons-th" src="../assets/Github.png" alt="">
-              <img class="icons-th" src="../assets/linkedin.png" alt="">
+              <h2>Tarcísio Sena</h2>
+              <a target="_blank" href="https://github.com/TLucas97">
+                <img class="icons-th" src="../assets/Github.png" alt="">
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/tarcísio-almeida-0a5577207/">
+                 <img class="icons-th" src="../assets/linkedin.png" alt="">
+              </a>
           </div>
 
         </div>
