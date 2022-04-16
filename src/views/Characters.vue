@@ -42,10 +42,16 @@ export default {
         },
         { text: "House", value: "house" },
         { text: "Gender", value: "gender" },
+        { text: "Hair colour", value: "hairColour" },
+        { text: "Eye colour", value: "eyeColour" },
         { text: "Ancestry", value: "ancestry" },
         { text: "Patronus", value: "patronus" },
         { text: "Species", value: "species" },
         { text: "Actor", value: "actor" },
+        { text: "Birth Date", value: "dateOfBirth" },
+        { text: "Alternate name", value: "alternate_names" },
+        { text: "Wand wood", value: "wand.wood" },
+        { text: "Wand core", value: "wand.core" },
       ],
       hpData: [],
     };
@@ -87,7 +93,7 @@ hr{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 1500px;
+  max-width: 1700px;
   width: 100%;
   margin: 0 auto;
 }
