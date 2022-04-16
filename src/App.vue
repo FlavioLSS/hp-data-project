@@ -12,9 +12,11 @@ import potterHead from './components/potter-head.vue';
 export default {
   components: { potterHead, PotterFooter },
   name: "App",
-  data: () => ({
-    //
-  }),
+  data(){
+    return{
+      something: true,
+    }
+  }
 };
 </script>
 
