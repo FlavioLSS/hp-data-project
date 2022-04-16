@@ -41,7 +41,7 @@
           </a>
         </li>
         <li>
-          <a href="">
+          <a target="blank" href="https://wiki.potterish.com/index.php/Página_principal">
             <button class="btn">Dictionary</button>
           </a>
         </li>
