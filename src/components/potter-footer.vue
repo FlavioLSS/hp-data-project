@@ -1,47 +1,35 @@
 <template>
-  <div id="footer">
-    <div class="top-footer">
-      <div class="text-footer">
-        <h2>
-          <strong>LEGAL NOTICE</strong><br />
-          <span>
-            Harry Potter is © J.K. Rowling, Warner Bros. Pictures, TPB,
-            Bloomsbury, Scholastic and Rocco. Harry Potter and Fantastic Beasts
-            Publishing Rights © J.K.R. Wizarding World is a trademark of J.K.
-            Rowling and Warner Bros. Entertainment Inc.
-          </span>
-        </h2>
-      </div>
-      <div>
-        <ul class="icons-footer">
-          <li>
-            <h4>Tecnologias utilizadas:</h4>
-          </li>
-          <li>
-            <a href="">
-              <img class="icons-th" src="../assets/html-5.png" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img class="icons-th" src="../assets/css.png" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img class="icons-th" src="../assets/java-script.png" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img class="icons-th" src="../assets/vue js.png" alt="" />
-            </a>
-          </li>
-        </ul>
-      </div>
+     <div id="footer">
+      <div class="top-footer">
+          <div class="text-footer">
+              <h2><strong>LEGAL NOTICE</strong><br>
+              <span>
+                  Harry Potter is © J.K. Rowling, Warner Bros. Pictures, TPB, Bloomsbury, Scholastic and Rocco. Harry Potter and Fantastic Beasts Publishing Rights © J.K.R. Wizarding World is a trademark of J.K. Rowling and Warner Bros. Entertainment Inc.
+              </span>
+              </h2>
+          </div>
+
+          <div class="ctt">
+            <div>
+              <h2 id="h2ctt"> Criado por:</h2>
+          </div>
+          <div class="ctt-1">
+              <h2>Flavio Silva</h2> <img class="icons-th" src="../assets/Github.png" alt="">
+              <img class="icons-th" src="../assets/linkedin.png" alt="">
+          </div>
+
+          <div class="ctt-1">
+              <h2>Tarcísio Sena</h2> <img class="icons-th" src="../assets/Github.png" alt="">
+              <img class="icons-th" src="../assets/linkedin.png" alt="">
+          </div>
+
+        </div>
+          </div>
+
+
+         
+      <h4>Copyright © 2002 - 2022 - potterwiki.com - Ano 22</h4>
     </div>
-    <h4>Copyright © 2002 - 2022 - potterwiki.com - Ano 22</h4>
-  </div>
 </template>
 
 <style scoped>
@@ -70,11 +58,11 @@ h2 {
   align-items: center;
 }
 
-.icons-th {
-  width: 40px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  transition: 0.3s ease-in-out;
+.icons-th{
+    width: 40px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+
 }
 
 .icons-th:hover {
@@ -89,23 +77,54 @@ h2 {
   margin: 0px 10px;
 }
 
-/* footer */
+/* CRÉDITOS */
 
-#footer {
-  width: 100%;
-  text-align: center;
-  background: #00151c;
-  height: 202px;
-  color: white;
-  position: absolute;
-  bottom: 0;
+.ctt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.text-footer {
-  max-width: 365px;
-  padding: 20px 0;
-  color: #c2c2c2;
-  max-height: 450px;
+.ctt-1 h2{
+    font-size: 18px;
+    margin: 10px;
+     font-family: 'Cinzel Decorative', 'cursive';
+    
+}
+
+.ctt-1 img{
+    margin: 10px;
+}
+
+.ctt-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+#h2ctt{
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', 'cursive';
+}
+
+/* footer */
+
+#footer{
+    width: 100%;
+    text-align: center;
+    background: #00151C;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.text-footer{
+    max-width: 365px;
+    padding: 20px 0;
+    color: #c2c2c2;
 }
 
 .text-footer h2 span {

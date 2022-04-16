@@ -120,11 +120,11 @@ h2 {
   align-items: center;
 }
 
-.icons-th {
-  width: 40px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  transition: 0.3s ease-in-out;
+.icons-th{
+    width: 40px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+
 }
 
 .icons-th:hover {
