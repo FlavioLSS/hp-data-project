@@ -10,24 +10,16 @@
             <h4>Technologies used:</h4>
           </li>
           <li>
-            <a href="">
               <img class="icons-th" src="../assets/html-5.png" alt="" />
-            </a>
           </li>
           <li>
-            <a href="">
               <img class="icons-th" src="../assets/css.png" alt="" />
-            </a>
           </li>
           <li>
-            <a href="">
               <img class="icons-th" src="../assets/java-script.png" alt="" />
-            </a>
           </li>
           <li>
-            <a href="">
               <img class="icons-th" src="../assets/vue js.png" alt="" />
-            </a>
           </li>
         </ul>
       </div>
@@ -49,7 +41,7 @@
           </a>
         </li>
         <li>
-          <a href="">
+          <a target="blank" href="https://wiki.potterish.com/index.php/Página_principal">
             <button class="btn">Dictionary</button>
           </a>
         </li>
