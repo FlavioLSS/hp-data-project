@@ -137,7 +137,6 @@ h4, h2{
 
 .icons-th{
     width: 40px;
-    border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     transition: .3s ease-in-out;
 
