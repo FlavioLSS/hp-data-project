@@ -9,7 +9,7 @@
       <h1 class="text-background mb-2">Explore the mysteries</h1>
       <h1 class="text-background">inside the old Hogwarts</h1>
       <div class="text-background text-center d-flex align-center justify-center mt-6">
-        <h2 class="red--text">AVAILABLE IN ALL PLATFORMS</h2>
+        <h2 class="white--text">AVAILABLE IN ALL PLATFORMS</h2>
       </div>
       <a target="_blank" href="https://www.hogwartslegacy.com/pt-br"><v-btn x-large class="transparent-btn mt-5 white--text" color="#00151c">Get your early access now!</v-btn></a>
     </div>
@@ -31,7 +31,7 @@ export default {
 }
 
 .text-background{
-  background: #03657d17;
+  background: #03657db9;
   -webkit-box-shadow: 1px 1px 42px 4px #000000; 
   box-shadow: 1px 1px 42px 4px #000000;
   padding: .1em;
@@ -43,8 +43,8 @@ export default {
 .test{
   position: absolute;
   color: white;
-  top: 400px;
-  right: 800px;
+  top: 35%;
+  right: 45%;
   margin-right: 8em;
 }
 
