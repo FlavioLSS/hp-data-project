@@ -31,33 +31,28 @@
     <div>
       <ul class="header-list">
         <li>
-          <a href="">
-            <button class="btn">Characters</button>
-          </a>
+          <router-link to="/characters">
+          <button class="btn">Characters</button>
+          </router-link>
         </li>
         <li>
-          <a href="">
-            <button class="btn">Movies</button>
-          </a>
+          <router-link to="/spells">
+          <button class="btn">Spells</button>
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/movies">
+          <button class="btn">Movies</button>
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/books">
+          <button class="btn">Books</button>
+          </router-link>
         </li>
         <li>
           <a target="blank" href="https://wiki.potterish.com/index.php/Página_principal">
             <button class="btn">Dictionary</button>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <button class="btn">Curiosities</button>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <button class="btn">Spells</button>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <button class="btn">Books</button>
           </a>
         </li>
       </ul>
