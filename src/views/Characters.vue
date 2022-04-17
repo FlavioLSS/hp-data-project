@@ -58,7 +58,7 @@ export default {
   },
   mounted() {
     setTimeout(() => {
-      axios.get('http://hp-api.herokuapp.com/api/characters').then((res) => {
+      axios.get('https://hp-api.herokuapp.com/api/characters').then((res) => {
       this.hpData = res.data
       this.loading = false
     })
