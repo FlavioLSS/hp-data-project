@@ -1,7 +1,10 @@
 <template>
   <div id="characters">
-      <div class="table">
-        <h1 class="text-center white--text mt-4">Characters</h1>
+    <video class="video-wrapper" autoplay loop muted>
+        <source src="../assets/video/hp-bg-video.mp4" type="video/mp4" />
+      </video>
+      <div class="table test">
+        <h1 class="text-center white--text mt-8">Characters</h1>
         <hr>
         <v-data-table
       :headers="headers"
@@ -96,9 +99,22 @@ hr{
   max-width: 1700px;
   width: 100%;
   margin: 0 auto;
+  opacity: .9;
 }
 
 *{
   font-family: "Bitter", serif;
+}
+
+.video-wrapper{
+  width: 100%;
+}
+
+.test{
+  position: absolute;
+  color: white;
+  top: 15%;
+  right: 0;
+  left: 0;
 }
 </style>
