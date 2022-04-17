@@ -8,7 +8,6 @@
               </span>
               </h2>
           </div>
-
           <div class="ctt">
             <div>
               <h2 id="h2ctt">Developed by:</h2>
@@ -20,10 +19,8 @@
               </a>
               <a target="blank" href="https://www.linkedin.com/in/flavio-silva-00176022b/">
                 <img class="icons-th" src="../assets/linkedin.png" alt="">
-              </a>
-              
+              </a> 
           </div>
-
           <div class="ctt-1">
               <h2>Tarcísio Sena</h2>
               <a target="_blank" href="https://github.com/TLucas97">
@@ -33,14 +30,10 @@
                  <img class="icons-th" src="../assets/linkedin.png" alt="">
               </a>
           </div>
-
         </div>
           </div>
-
-
-         
       <h4>Copyright © 2022 - potterwiki.com</h4>
-    </div>
+    </div>   
 </template>
 
 <style scoped>

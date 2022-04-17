@@ -1,8 +1,5 @@
 <template>
   <div id="characters">
-    <video class="video-wrapper" autoplay loop muted>
-        <source src="../assets/video/hp-bg-video.mp4" type="video/mp4" />
-      </video>
       <div class="table test">
         <h1 class="text-center white--text mt-8">Characters</h1>
         <hr>
@@ -83,8 +80,11 @@ export default {
 
 <style scoped>
 #characters {
-  height: 1000px;
-  background: black;
+  background: url('../assets/hp-background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 5em;
 }
 
 hr{
@@ -104,17 +104,5 @@ hr{
 
 *{
   font-family: "Bitter", serif;
-}
-
-.video-wrapper{
-  width: 100%;
-}
-
-.test{
-  position: absolute;
-  color: white;
-  top: 15%;
-  right: 0;
-  left: 0;
 }
 </style>

@@ -2,7 +2,7 @@
   <v-app>
       <potter-head />
       <router-view />
-      <potter-footer />
+      <potter-footer/>
   </v-app>
 </template>
 
