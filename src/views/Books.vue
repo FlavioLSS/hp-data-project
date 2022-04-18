@@ -28,8 +28,9 @@
                                     </template>
                         <span>Change book cover</span>
                     </v-tooltip>
-                        <small class="ml-5 mt-2">Artist: {{ test.book_covers[0].artist }}</small>
                         <small class="ml-5 mt-2">Edition: {{ test.book_covers[0].edition }}</small>
+                        <small class="ml-5 mt-2">Artist(UK): {{ test.book_covers[0].artist }}</small>
+                        <small class="ml-5 mt-2">Artist(US): {{ test.book_covers[1].artist }}</small>
                         <small class="ml-5 mt-2">Publish date(UK): {{ test.publish_date[0].UK }}</small>
                         <small class="ml-5 mt-2">Publish date(US): {{ test.publish_date[1].US }}</small>
                     </div>
