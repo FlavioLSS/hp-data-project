@@ -43,8 +43,14 @@
 </template>
 
 <style lang="scss" scoped>
+*{
+    font-weight: bold;
+}
+
 #books{
-    background: url('../assets/old-bg.jpg');
+    background: url('../assets/old-bg.jpg') no-repeat fixed;
+    background-size: cover;
+    
 
     .book-screen{
         max-width: 70%;
