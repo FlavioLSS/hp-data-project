@@ -23,6 +23,10 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative&family=Special+Elite&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+/* font-family: 'Old Standard TT', serif; */
+
+
   *{
     margin: 0;
     padding: 0;
