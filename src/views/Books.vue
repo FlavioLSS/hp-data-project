@@ -51,6 +51,14 @@
     background: url('../assets/old-bg.jpg') no-repeat fixed;
     background-size: cover;
     
+    h3:after{
+        content: "";
+        background: rgb(0, 0, 0);
+        display: block;
+        width: 30px;
+        height: 2px;
+        margin: 2px auto;
+    }
 
     .book-screen{
         max-width: 70%;
