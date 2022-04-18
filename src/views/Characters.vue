@@ -104,6 +104,8 @@ hr{
 
 *{
   font-family: "Bitter", serif;
+  background: no-repeat fixed;
+  background-size: cover;
 }
 
 .v-data-table::v-deep th {
