@@ -1,7 +1,7 @@
 <template>
   <div id="characters">
       <div class="table test">
-        <h1 class="text-center white--text mt-8">Characters</h1>
+        <h1 class="text-center white--text mt-8">List of all characters</h1>
         <hr>
         <v-data-table
       :headers="headers"
@@ -78,7 +78,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #characters {
   background: url('../assets/hp-background.jpg');
   background-size: cover;
@@ -96,7 +96,7 @@ hr{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 1700px;
+  max-width: 100%;
   width: 100%;
   margin: 0 auto;
   opacity: .9;
@@ -104,5 +104,15 @@ hr{
 
 *{
   font-family: "Bitter", serif;
+}
+
+.v-data-table::v-deep th {
+  text-transform: uppercase !important;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.v-data-table::v-deep td {
+  text-transform: capitalize;
+  font-weight: bold !important;
 }
 </style>

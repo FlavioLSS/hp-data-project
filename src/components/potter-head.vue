@@ -51,6 +51,11 @@
           </router-link>
         </li>
         <li>
+          <router-link to="/potterblog">
+          <button class="btn">Potter Blog</button>
+          </router-link>
+        </li>
+        <li>
           <a target="blank" href="https://wiki.potterish.com/index.php/Página_principal">
             <button class="btn">Dictionary</button>
           </a>

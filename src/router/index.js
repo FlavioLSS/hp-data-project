@@ -5,6 +5,7 @@ import Books from "../views/Books.vue";
 import Movies from "../views/Movies.vue";
 import Spells from "../views/Spells.vue";
 import Characters from "../views/Characters.vue";
+import PotterBlog from "../views/PotterBlog.vue";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: "/spells",
     name: "Spells",
     component: Spells,
+  },
+  {
+    path: "/potterblog",
+    name: "PotterBlog",
+    component: PotterBlog,
   },
 ];
 
