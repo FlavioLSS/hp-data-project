@@ -23,23 +23,24 @@
                 </v-btn>
                 <v-toolbar-title class="text--center">Harry Potter Movies</v-toolbar-title>
               </v-toolbar>
-              <movie-modal-1 />
-              <movie-modal-2 />
-              <movie-modal-3 />
-              <movie-modal-4 />
-              <movie-modal-5 />
-              <movie-modal-6 />
-              <movie-modal-7 />
-              <movie-modal-8 />
+              <movie-modal-1 v-show="modals.modal_1" />
+              <movie-modal-2 v-show="modals.modal_2" />
+              <movie-modal-3 v-show="modals.modal_3" />
+              <movie-modal-4 v-show="modals.modal_4" />
+              <movie-modal-5 v-show="modals.modal_5" />
+              <movie-modal-6 v-show="modals.modal_6" />
+              <movie-modal-7 v-show="modals.modal_7" />
+              <movie-modal-8 v-show="modals.modal_8" />
             </v-card>
           </v-dialog>
         </v-row>
       </div>
       <!-- modal -->
         <div class="container mt-10 mb-10">
-            <h1 @click="openDialog">Movies</h1>
-            <v-carousel class="carrosel" height="600" hide-delimiters>
-                <v-carousel-item class="item-car"
+            <h1>Movies</h1>
+            <v-carousel v-model="currentIndex" class="carrosel" height="600" hide-delimiters>
+                <v-carousel-item class="item-car" style="cursor: pointer;"
+                @click="openDialog"
                 v-for="(item,i) in items"
                 :key="i"
                 :src="item.src"
@@ -84,6 +85,17 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
         notifications: false,
         sound: true,
         widgets: false,
+        modals: {
+          modal_1: false,
+          modal_2: false,
+          modal_3: false,
+          modal_4: false,
+          modal_5: false,
+          modal_6: false,
+          modal_7: false,
+          modal_8: false,
+        },
+        currentIndex: 0,
         items: [
           {
             src: 'https://images8.alphacoders.com/113/thumb-1920-1130048.jpg',
@@ -114,8 +126,88 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
     },
     methods: {
       openDialog(){
-        this.dialog = true;
-      }
+        if(this.currentIndex === 0){
+          this.dialog = true
+          this.modals.modal_8 = false
+          this.modals.modal_7 = false
+          this.modals.modal_6 = false
+          this.modals.modal_5 = false
+          this.modals.modal_4 = false
+          this.modals.modal_3 = false
+          this.modals.modal_2 = false
+          this.modals.modal_1 = true
+        } else if (this.currentIndex === 1){
+          this.dialog = true
+          this.modals.modal_8 = false
+          this.modals.modal_7 = false
+          this.modals.modal_6 = false
+          this.modals.modal_5 = false
+          this.modals.modal_4 = false
+          this.modals.modal_3 = false
+          this.modals.modal_2 = true
+          this.modals.modal_1 = false
+        } else if (this.currentIndex === 2){
+          this.dialog = true
+          this.modals.modal_8 = false
+          this.modals.modal_7 = false
+          this.modals.modal_6 = false
+          this.modals.modal_5 = false
+          this.modals.modal_4 = false
+          this.modals.modal_3 = true
+          this.modals.modal_2 = false
+          this.modals.modal_1 = false
+        } else if (this.currentIndex === 3){
+          this.dialog = true
+          this.modals.modal_8 = false
+          this.modals.modal_7 = false
+          this.modals.modal_6 = false
+          this.modals.modal_5 = false
+          this.modals.modal_4 = true
+          this.modals.modal_3 = false
+          this.modals.modal_2 = false
+          this.modals.modal_1 = false
+        } else if (this.currentIndex === 4){
+          this.dialog = true
+          this.modals.modal_8 = false
+          this.modals.modal_7 = false
+          this.modals.modal_6 = false
+          this.modals.modal_5 = true
+          this.modals.modal_4 = false
+          this.modals.modal_3 = false
+          this.modals.modal_2 = false
+          this.modals.modal_1 = false
+        } else if (this.currentIndex === 5){
+          this.dialog = true
+          this.modals.modal_8 = false
+          this.modals.modal_7 = false
+          this.modals.modal_6 = true
+          this.modals.modal_5 = false
+          this.modals.modal_4 = false
+          this.modals.modal_3 = false
+          this.modals.modal_2 = false
+          this.modals.modal_1 = false
+        } else if (this.currentIndex === 6){
+          this.dialog = true
+          this.modals.modal_8 = false
+          this.modals.modal_7 = true
+          this.modals.modal_6 = false
+          this.modals.modal_5 = false
+          this.modals.modal_4 = false
+          this.modals.modal_3 = false
+          this.modals.modal_2 = false
+          this.modals.modal_1 = false
+        } else if (this.currentIndex === 7 || this.currentIndex === 0){
+          this.dialog = true
+          this.modals.modal_8 = true
+          this.modals.modal_7 = false
+          this.modals.modal_6 = false
+          this.modals.modal_5 = false
+          this.modals.modal_4 = false
+          this.modals.modal_3 = false
+          this.modals.modal_2 = false
+          this.modals.modal_1 = false
+        }
+      } 
     }
   }
 </script>
