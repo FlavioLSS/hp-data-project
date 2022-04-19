@@ -6,6 +6,9 @@ import Movies from "../views/Movies.vue";
 import Spells from "../views/Spells.vue";
 import Characters from "../views/Characters.vue";
 import PotterBlog from "../views/PotterBlog.vue";
+import fantasticBeastsArticle from "../views/Potter-Blog-Posts/fantastic-beasts-article.vue"
+import hogwartsLegacyArticle from "../views/Potter-Blog-Posts/hogwarts-legacy-article.vue"
+import hpRebootArticle from "../views/Potter-Blog-Posts/hp-reboot-article.vue"
 
 Vue.use(VueRouter);
 
@@ -39,6 +42,21 @@ const routes = [
     path: "/potterblog",
     name: "PotterBlog",
     component: PotterBlog,
+  },
+  {
+    path: "/fantasticbeastsarticle",
+    name: "FantasticBeastsArticle",
+    component: fantasticBeastsArticle,
+  },
+  {
+    path: "/hogwartslegacyarticle",
+    name: "HogwartsLegacyArticle",
+    component: hogwartsLegacyArticle,
+  },
+  {
+    path: "/hprebootarticle",
+    name: "HpRebootArticle",
+    component: hpRebootArticle,
   },
 ];
 
