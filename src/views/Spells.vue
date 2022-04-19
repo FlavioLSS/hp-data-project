@@ -105,10 +105,6 @@
             name: 'Spells',
             children: this.users,
           },
-          {
-            name: 'Potions',
-            children: this.users_2,
-          }
         ]
       },
       selected () {
