@@ -72,10 +72,6 @@ body{
 
 .container{
     background: white;
-    position:relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     max-width: 1400px;
     height: 1000px;
 }
