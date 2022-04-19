@@ -4,7 +4,7 @@
 ## Project URL
 
 ```
-https://potter-wiki-fanwebsite.netlify.app/
+https://potter-wiki.netlify.app/
 ```
 
 ## Technologyes Used
