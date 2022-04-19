@@ -1,4 +1,20 @@
-# vue_project
+
+# HarryPotter Data Project
+
+## Project URL
+
+```
+https://potter-wiki-fanwebsite.netlify.app/
+```
+
+## Technologyes Used
+```
+HTML, CSS, Javascript, Vue.js, Vuetify
+```
+## Built with
+```
+PotterApi | TheHarryPotterDataBase
+```
 
 ## Project setup
 ```
