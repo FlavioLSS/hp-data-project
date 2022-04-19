@@ -1,7 +1,43 @@
 <template>
     <body>
-        <div class="container">
-            <h1>Movies</h1>
+      <!-- modal -->
+      <div>
+        <v-row justify="center">
+          <v-dialog
+            v-model="dialog"
+            fullscreen
+            hide-overlay
+            transition="dialog-bottom-transition"
+          >
+            <v-card>
+              <v-toolbar
+                dark
+                color="#00151C"
+              >
+                <v-btn
+                  icon
+                  dark
+                  @click="dialog = false"
+                >
+                  <v-icon>mdi-close</v-icon>
+                </v-btn>
+                <v-toolbar-title class="text--center">Harry Potter Movies</v-toolbar-title>
+              </v-toolbar>
+              <movie-modal-1 />
+              <movie-modal-2 />
+              <movie-modal-3 />
+              <movie-modal-4 />
+              <movie-modal-5 />
+              <movie-modal-6 />
+              <movie-modal-7 />
+              <movie-modal-8 />
+            </v-card>
+          </v-dialog>
+        </v-row>
+      </div>
+      <!-- modal -->
+        <div class="container mt-10 mb-10">
+            <h1 @click="openDialog">Movies</h1>
             <v-carousel class="carrosel" height="600" hide-delimiters>
                 <v-carousel-item class="item-car"
                 v-for="(item,i) in items"
@@ -22,9 +58,32 @@
 </template>
 
 <script>
+import movieModal1 from '../components/movieModals/movie-modal-1.vue'
+import movieModal2 from '../components/movieModals/movie-modal-2.vue'
+import movieModal3 from '../components/movieModals/movie-modal-3.vue'
+import movieModal4 from '../components/movieModals/movie-modal-4.vue'
+import movieModal5 from '../components/movieModals/movie-modal-5.vue'
+import movieModal6 from '../components/movieModals/movie-modal-6.vue'
+import movieModal7 from '../components/movieModals/movie-modal-7.vue'
+import movieModal8 from '../components/movieModals/movie-modal-8.vue'
+
   export default {
+    components: {
+      movieModal1,
+      movieModal2,
+      movieModal3,
+      movieModal4,
+      movieModal5,
+      movieModal6,
+      movieModal7,
+      movieModal8,
+    },
     data () {
       return {
+        dialog: false,
+        notifications: false,
+        sound: true,
+        widgets: false,
         items: [
           {
             src: 'https://images8.alphacoders.com/113/thumb-1920-1130048.jpg',
@@ -53,6 +112,11 @@
         ],
       }
     },
+    methods: {
+      openDialog(){
+        this.dialog = true;
+      }
+    }
   }
 </script>
 
