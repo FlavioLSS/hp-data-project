@@ -95,15 +95,20 @@
       avatar: null,
       open: [],
       users: [],
+      users_2: [],
     }),
 
     computed: {
       items () {
         return [
           {
-            name: 'Spells and details',
+            name: 'Spells',
             children: this.users,
           },
+          {
+            name: 'Potions',
+            children: this.users_2,
+          }
         ]
       },
       selected () {
