@@ -41,7 +41,7 @@
       <!-- modal -->
         <div class="container mt-10 mb-10">
             <h1>Movies</h1>
-            <v-carousel v-model="currentIndex" class="carrosel" height="660">
+            <v-carousel v-model="currentIndex" class="carrosel" height="660" max-width="700">
                 <v-carousel-item class="item-car" style="cursor: pointer;"
                 @click="openDialog"
                 v-for="(item,i) in items"
@@ -306,7 +306,6 @@ body{
     background: url('../assets/bg-movies.jpg') no-repeat center fixed;
     background-size: cover;
     width: 100%;
-    height: 100%;
     text-align: center;
 }
 
@@ -350,8 +349,8 @@ body{
 }
 
 .img2{
-  width: 330px;
-  height: 500px;
+  width: 350px;
+  height: 540px;
   margin: 10px 10px;
   cursor: pointer;
   opacity: 0.7;

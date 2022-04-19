@@ -9,7 +9,7 @@ import PotterBlog from "../views/PotterBlog.vue";
 import fantasticBeastsArticle from "../views/Potter-Blog-Posts/fantastic-beasts-article.vue"
 import hogwartsLegacyArticle from "../views/Potter-Blog-Posts/hogwarts-legacy-article.vue"
 import hpRebootArticle from "../views/Potter-Blog-Posts/hp-reboot-article.vue"
-
+import brazilianActorArticle from "../views/Potter-Blog-Posts/brazilian-actor-article.vue"
 Vue.use(VueRouter);
 
 const routes = [
@@ -57,6 +57,11 @@ const routes = [
     path: "/hprebootarticle",
     name: "HpRebootArticle",
     component: hpRebootArticle,
+  },
+  {
+    path: "/brazilianactorarticle",
+    name: "brazilianActorArticle",
+    component:brazilianActorArticle,
   },
 ];
 
