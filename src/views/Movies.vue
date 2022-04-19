@@ -47,7 +47,9 @@
                 v-for="(item,i) in items"
                 :key="i"
                 :src="item.src"
-                ></v-carousel-item>
+                >
+                <div class="overlay"><h2>Clique para <br> mais informações</h2></div>
+                </v-carousel-item>
             </v-carousel>
             <h1>Spin Off's</h1>
           <div class="spn">
@@ -315,6 +317,34 @@ body{
     left: 50%;
     transform: translate(-50%);
     border: 2px solid white;
+}
+
+item-car{
+  position:relative
+}
+
+.overlay{
+  top: 0;
+  left: 0;
+  background: black;
+  color: white;
+  height: 660px;
+  width: 1100px;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.overlay h2{
+  font-family: 'Bitter', serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.overlay:hover{
+  opacity: 0.5;
 }
 
 .container{
