@@ -31,6 +31,9 @@
               <movie-modal-6 v-show="modals.modal_6" />
               <movie-modal-7 v-show="modals.modal_7" />
               <movie-modal-8 v-show="modals.modal_8" />
+              <movie-modal-9 v-show="modals.modal_9" />
+              <movie-modal-10 v-show="modals.modal_10" />
+              <movie-modal-11 v-show="modals.modal_11" />
             </v-card>
           </v-dialog>
         </v-row>
@@ -38,7 +41,7 @@
       <!-- modal -->
         <div class="container mt-10 mb-10">
             <h1>Movies</h1>
-            <v-carousel v-model="currentIndex" class="carrosel" height="600" hide-delimiters>
+            <v-carousel v-model="currentIndex" class="carrosel" height="660">
                 <v-carousel-item class="item-car" style="cursor: pointer;"
                 @click="openDialog"
                 v-for="(item,i) in items"
@@ -49,9 +52,9 @@
             <h1>Spin Off's</h1>
           <div class="spn">
             <div class="posters">
-              <img class="img2" src="../assets/Poster 1.jpg" alt="">
-              <img class="img2" src="../assets/poster 2.jpg" alt="">
-              <img class="img2" src="../assets/Poster 3.png" alt="">
+              <img @click="openSpinOffs1" class="img2" src="../assets/Poster 1.jpg" alt="">
+              <img @click="openSpinOffs2" class="img2" src="../assets/poster 2.jpg" alt="">
+              <img @click="openSpinOffs3" class="img2" src="../assets/Poster 3.png" alt="">
             </div>
           </div>
         </div>
@@ -67,6 +70,9 @@ import movieModal5 from '../components/movieModals/movie-modal-5.vue'
 import movieModal6 from '../components/movieModals/movie-modal-6.vue'
 import movieModal7 from '../components/movieModals/movie-modal-7.vue'
 import movieModal8 from '../components/movieModals/movie-modal-8.vue'
+import movieModal9 from '../components/movieModals/movie-modal-9.vue'
+import movieModal10 from '../components/movieModals/movie-modal-10.vue'
+import movieModal11 from '../components/movieModals/movie-modal-11.vue'
 
   export default {
     components: {
@@ -78,6 +84,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
       movieModal6,
       movieModal7,
       movieModal8,
+      movieModal9,
+      movieModal10,
+      movieModal11,
     },
     data () {
       return {
@@ -94,6 +103,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           modal_6: false,
           modal_7: false,
           modal_8: false,
+          modal_9: false,
+          modal_10: false,
+          modal_11: false,
         },
         currentIndex: 0,
         items: [
@@ -128,6 +140,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
       openDialog(){
         if(this.currentIndex === 0){
           this.dialog = true
+          this.modals.modal_11 = false
+          this.modals.modal_10 = false
+          this.modals.modal_9 = false
           this.modals.modal_8 = false
           this.modals.modal_7 = false
           this.modals.modal_6 = false
@@ -138,6 +153,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           this.modals.modal_1 = true
         } else if (this.currentIndex === 1){
           this.dialog = true
+          this.modals.modal_11 = false
+          this.modals.modal_10 = false
+          this.modals.modal_9 = false
           this.modals.modal_8 = false
           this.modals.modal_7 = false
           this.modals.modal_6 = false
@@ -148,6 +166,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           this.modals.modal_1 = false
         } else if (this.currentIndex === 2){
           this.dialog = true
+          this.modals.modal_11 = false
+          this.modals.modal_10 = false
+          this.modals.modal_9 = false
           this.modals.modal_8 = false
           this.modals.modal_7 = false
           this.modals.modal_6 = false
@@ -158,6 +179,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           this.modals.modal_1 = false
         } else if (this.currentIndex === 3){
           this.dialog = true
+          this.modals.modal_11 = false
+          this.modals.modal_10 = false
+          this.modals.modal_9 = false
           this.modals.modal_8 = false
           this.modals.modal_7 = false
           this.modals.modal_6 = false
@@ -168,6 +192,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           this.modals.modal_1 = false
         } else if (this.currentIndex === 4){
           this.dialog = true
+          this.modals.modal_11 = false
+          this.modals.modal_10 = false
+          this.modals.modal_9 = false
           this.modals.modal_8 = false
           this.modals.modal_7 = false
           this.modals.modal_6 = false
@@ -178,6 +205,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           this.modals.modal_1 = false
         } else if (this.currentIndex === 5){
           this.dialog = true
+          this.modals.modal_11 = false
+          this.modals.modal_10 = false
+          this.modals.modal_9 = false
           this.modals.modal_8 = false
           this.modals.modal_7 = false
           this.modals.modal_6 = true
@@ -188,6 +218,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           this.modals.modal_1 = false
         } else if (this.currentIndex === 6){
           this.dialog = true
+          this.modals.modal_11 = false
+          this.modals.modal_10 = false
+          this.modals.modal_9 = false
           this.modals.modal_8 = false
           this.modals.modal_7 = true
           this.modals.modal_6 = false
@@ -198,6 +231,9 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           this.modals.modal_1 = false
         } else if (this.currentIndex === 7 || this.currentIndex === 0){
           this.dialog = true
+          this.modals.modal_11 = false
+          this.modals.modal_10 = false
+          this.modals.modal_9 = false
           this.modals.modal_8 = true
           this.modals.modal_7 = false
           this.modals.modal_6 = false
@@ -207,7 +243,49 @@ import movieModal8 from '../components/movieModals/movie-modal-8.vue'
           this.modals.modal_2 = false
           this.modals.modal_1 = false
         }
-      } 
+      },
+      openSpinOffs1(){
+        this.dialog = true
+        this.modals.modal_11 = false
+        this.modals.modal_10 = false
+        this.modals.modal_9 = true
+        this.modals.modal_8 = false
+        this.modals.modal_7 = false
+        this.modals.modal_6 = false
+        this.modals.modal_5 = false
+        this.modals.modal_4 = false
+        this.modals.modal_3 = false
+        this.modals.modal_2 = false
+        this.modals.modal_1 = false
+      }, 
+      openSpinOffs2(){
+        this.dialog = true
+        this.modals.modal_11 = false
+        this.modals.modal_10 = true
+        this.modals.modal_9 = false
+        this.modals.modal_8 = false
+        this.modals.modal_7 = false
+        this.modals.modal_6 = false
+        this.modals.modal_5 = false
+        this.modals.modal_4 = false
+        this.modals.modal_3 = false
+        this.modals.modal_2 = false
+        this.modals.modal_1 = false
+      }, 
+      openSpinOffs3(){
+        this.dialog = true
+        this.modals.modal_11 = true
+        this.modals.modal_10 = false
+        this.modals.modal_9 = false
+        this.modals.modal_8 = false
+        this.modals.modal_7 = false
+        this.modals.modal_6 = false
+        this.modals.modal_5 = false
+        this.modals.modal_4 = false
+        this.modals.modal_3 = false
+        this.modals.modal_2 = false
+        this.modals.modal_1 = false
+      }, 
     }
   }
 </script>
@@ -241,10 +319,12 @@ body{
 }
 
 .container{
-    background: black;
+    background: rgba(0, 0, 0, 0.726);
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 1em;
+    border-radius: 10px;
 }
 
 .container h1{
