@@ -121,6 +121,7 @@ h2 {
     text-align: center;
     background: #00151C;
     color: white;
+    position: relative;
 }
 
 .text-footer{

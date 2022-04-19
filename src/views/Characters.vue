@@ -80,7 +80,7 @@ export default {
 
 <style lang="scss" scoped>
 #characters {
-  background: url('../assets/bg hp.jpg') no-repeat fixed;
+  background: rgb(0, 0, 0) no-repeat fixed;
   background-size: cover;
   position: relative;
   padding-bottom: 5em;

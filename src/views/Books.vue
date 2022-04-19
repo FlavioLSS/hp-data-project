@@ -66,7 +66,7 @@
     }
 
     h1, p, h2, h3{
-        font-family: 'Old Standard TT', serif !important;
+        font-family: 'Special Elite', serif !important;
         text-align: center;
     }
 
