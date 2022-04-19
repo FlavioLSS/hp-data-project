@@ -56,7 +56,7 @@
             <div class="posters">
               <img @click="openSpinOffs1" class="img2" src="../assets/Poster 1.jpg" alt="">
               <img @click="openSpinOffs2" class="img2" src="../assets/poster 2.jpg" alt="">
-              <img @click="openSpinOffs3" class="img2" src="../assets/Poster 3.png" alt="">
+              <img @click="openSpinOffs3" class="img2" src="https://bookstr.com/wp-content/uploads/2021/12/fantastic-beasts-secrets-of-dumbledore.jpeg" alt="">
             </div>
           </div>
         </div>
@@ -379,8 +379,8 @@ item-car{
 }
 
 .img2{
-  width: 350px;
-  height: 540px;
+  width: 340px;
+  height: auto;
   margin: 10px 10px;
   cursor: pointer;
   opacity: 0.7;
