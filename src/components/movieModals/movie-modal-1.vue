@@ -25,6 +25,36 @@
         </div>
 
                     <h2>Momentos Icônicos</h2>
+    <div class="part2">
+
+            <div class="momento">
+                <h2>Rony se sacrificando na partida de xadrez bruxo</h2>
+                <iframe class="trailer-v2" src="https://www.youtube.com/embed/9fIObnIGMlI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="artigo">
+                         <h3>Harry Potter vive com os tios Dursley, onde é mal tratado até completar seus 11 anos. É com essa idade que o jovem bruxo começa a receber cartas da escola de Hogwarts. Na noite de seu aniversário Harry é visitado por Hagrid (um ser gigante que trabalha para o diretor de Hogwarts), o qual revela que Harry é filho de bruxos e foi convidado a ingressar na escola de bruxaria. A verdade é toda revelada a Harry Potter, que seus pais foram mortos pelo terrível bruxo Voldemort e que a sua cicatriz era marca da tentativa de assassinato que Harry sofrera. Esse primeiro livro apresenta o leitor aos principais personagens da série e cria uma aura de “simpatia” pelo personagem principal (Harry).</h3>
+                    </div>
+             </div>
+              <div class="part2">
+
+            <div class="momento">
+                <h2>Rony se sacrificando na partida de xadrez bruxo</h2>
+                <iframe class="trailer-v2" src="https://www.youtube.com/embed/9fIObnIGMlI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="artigo">
+                         <h3>Harry Potter vive com os tios Dursley, onde é mal tratado até completar seus 11 anos. É com essa idade que o jovem bruxo começa a receber cartas da escola de Hogwarts. Na noite de seu aniversário Harry é visitado por Hagrid (um ser gigante que trabalha para o diretor de Hogwarts), o qual revela que Harry é filho de bruxos e foi convidado a ingressar na escola de bruxaria. A verdade é toda revelada a Harry Potter, que seus pais foram mortos pelo terrível bruxo Voldemort e que a sua cicatriz era marca da tentativa de assassinato que Harry sofrera. Esse primeiro livro apresenta o leitor aos principais personagens da série e cria uma aura de “simpatia” pelo personagem principal (Harry).</h3>
+                    </div>
+             </div>
+              <div class="part2">
+
+            <div class="momento">
+                <h2>Rony se sacrificando na partida de xadrez bruxo</h2>
+                <iframe class="trailer-v2" src="https://www.youtube.com/embed/9fIObnIGMlI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="artigo">
+                         <h3>Harry Potter vive com os tios Dursley, onde é mal tratado até completar seus 11 anos. É com essa idade que o jovem bruxo começa a receber cartas da escola de Hogwarts. Na noite de seu aniversário Harry é visitado por Hagrid (um ser gigante que trabalha para o diretor de Hogwarts), o qual revela que Harry é filho de bruxos e foi convidado a ingressar na escola de bruxaria. A verdade é toda revelada a Harry Potter, que seus pais foram mortos pelo terrível bruxo Voldemort e que a sua cicatriz era marca da tentativa de assassinato que Harry sofrera. Esse primeiro livro apresenta o leitor aos principais personagens da série e cria uma aura de “simpatia” pelo personagem principal (Harry).</h3>
+                    </div>
+             </div>
 
     </div>
     <!-- Hover -->
@@ -41,7 +71,7 @@ h2{
     color: white;
     font-size: 42px;
     font-family: 'Cinzel Decorative', 'cursive';
-    margin: 10px 0;
+    margin: 40px 0;
 }
 
 h3{
@@ -66,12 +96,11 @@ h3{
 .part1{
     background: rgba(0, 0, 0, 0.870);
     border-radius: 10px;
-    max-width: 1340px;
+    width: 1280px;
     display: flex;
 }
 
 .sinopse{
-    padding: 0px 0px 40px 0px;
     text-align: left;
     max-width: 600px;
 }
@@ -98,5 +127,35 @@ h3{
 .trailer-v{
     width: 640px;
     height: 415px;
+}
+
+.part2{
+    background: rgba(0, 0, 0, 0.870);
+    border-radius: 10px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trailer-v2{
+    width: 960px;
+    height: 615px;
+}
+
+.momento h2{
+    font-family: 'Bitter', serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: none;
+}
+
+.artigo{
+    width: 960px;
+    text-align: left;
+    margin-bottom: 30px;
 }
 </style>
