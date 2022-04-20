@@ -24,7 +24,7 @@
             </div>
           </v-col>
         </v-row>
-        <v-row class="mt-16 mb-16 pb-12 pt-12">
+        <v-row class="mt-16 mb-16 pb-8 pt-8">
           <v-col class="d-flex justify-center">
             <img src="../assets/potter-line.png" width="600">
           </v-col>
@@ -68,7 +68,7 @@ export default {
 
 .video-wrapper{
   opacity: .4;
-  height: 1400px;
+  height: 1250px;
 }
 
 .text-box-1{
@@ -77,7 +77,7 @@ export default {
   color: white;
   background: rgba(0, 0, 0, 0.658);
   width: 1200px;
-  height: 1200px;
+  height: 1100px;
   margin-top: 2em;
 }
 

@@ -3,7 +3,7 @@
         <h1 class="text-center mt-14 title">Potter Blog</h1>
         <hr>
         <div class="teste">
-            <h1 class="sub-title">Did the old harry potter fans enjoy the 3rd fantastic beasts movie?</h1>
+            <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
             <div><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jessica-williams-callum-turner-jude-law-fiona-glascott-eddie-redmayne-fantastic-beasts-the-secrets-of-dumbledore-1639477622.jpg?crop=1.00xw:0.847xh;0,0&resize=1200:*" class="img-banner"></div>
             <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
             <v-btn color="primary" to="/fantasticbeastsarticle">Read more</v-btn>
