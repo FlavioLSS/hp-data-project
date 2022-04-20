@@ -1,7 +1,7 @@
 <template>
   <div id="characters">
       <div class="table test">
-        <h1 class="text-center white--text mt-8">List of all characters</h1>
+        <h1 class="text-center black--text mt-8">List of all characters</h1>
         <hr>
         <v-data-table
       :headers="headers"
@@ -11,7 +11,7 @@
       :loading="loading"
       :custom-filter="filterOnlyCapsText"
       class="elevation-8 mt-10 table"
-      dark
+      dense
     >
     <template v-slot:top>
         <v-text-field
@@ -48,8 +48,7 @@ export default {
         { text: "Patronus", value: "patronus" },
         { text: "Species", value: "species" },
         { text: "Actor", value: "actor" },
-        { text: "Birth Date", value: "dateOfBirth" },
-        { text: "Alternate name", value: "alternate_names" },
+        { text: "Birth year", value: "yearOfBirth" },
         { text: "Wand wood", value: "wand.wood" },
         { text: "Wand core", value: "wand.core" },
       ],
@@ -80,7 +79,7 @@ export default {
 
 <style lang="scss" scoped>
 #characters {
-  background: rgb(0, 0, 0) no-repeat fixed;
+  background: url('../assets/old-bg-2.jpg') no-repeat fixed;
   background-size: cover;
   position: relative;
   padding-bottom: 5em;
@@ -91,12 +90,16 @@ hr{
   margin: 0 auto;
 }
 
+h1{
+  font-family: 'Special Elite', serif !important;
+}
+
 .table{
   display: flex;
   justify-content: center;
   flex-direction: column;
   max-width: 100%;
-  width: 100%;
+  width: 98%;
   margin: 0 auto;
   opacity: .9;
 }
@@ -108,12 +111,12 @@ hr{
 }
 
 .v-data-table::v-deep th {
-  text-transform: uppercase !important;
-  text-decoration: underline;
   font-weight: bold;
+  font-family: 'Special Elite', serif !important;
 }
 .v-data-table::v-deep td {
   text-transform: capitalize;
   font-weight: bold !important;
+  font-family: 'Special Elite', serif !important;
 }
 </style>
