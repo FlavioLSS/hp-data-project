@@ -340,7 +340,8 @@ item-car{
   font-size: 18px;
   position: absolute;
   top: 45%;
-  left: 45%;
+  left: 0;
+  right: 0;
 }
 
 .overlay:hover{
