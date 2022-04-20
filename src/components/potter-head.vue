@@ -1,29 +1,5 @@
 <template>
   <div id="header">
-    <!-- <div class="top-header">
-      <div>
-          <h2>Developed with: PotterApi | TheHarryPotterDataBase</h2>
-      </div>
-      <div>
-        <ul class="icons-header">
-          <li>
-            <h4>Technologies used:</h4>
-          </li>
-          <li>
-              <img class="icons-th" src="../assets/html-5.png" alt="" />
-          </li>
-          <li>
-              <img class="icons-th" src="../assets/css.png" alt="" />
-          </li>
-          <li>
-              <img class="icons-th" src="../assets/java-script.png" alt="" />
-          </li>
-          <li>
-              <img class="icons-th" src="../assets/vue js.png" alt="" />
-          </li>
-        </ul>
-      </div>
-    </div> -->
     <div class="logo">
       <router-link to="/"><h1>POTTER WIKI</h1></router-link>
     </div>

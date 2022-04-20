@@ -1,5 +1,29 @@
 <template>
      <div id="footer">
+          <div class="top-header">
+      <div>
+          <h2>Developed with: PotterApi | TheHarryPotterDataBase</h2>
+      </div>
+      <div>
+        <ul class="icons-header">
+          <li>
+            <h4>Technologies used:</h4>
+          </li>
+          <li>
+              <img class="icons-th" src="../assets/html-5.png" alt="" />
+          </li>
+          <li>
+              <img class="icons-th" src="../assets/css.png" alt="" />
+          </li>
+          <li>
+              <img class="icons-th" src="../assets/java-script.png" alt="" />
+          </li>
+          <li>
+              <img class="icons-th" src="../assets/vue js.png" alt="" />
+          </li>
+        </ul>
+      </div>
+    </div>
       <div class="top-footer">
           <div class="text-footer">
               <h2><strong>LEGAL NOTICE</strong><br>
@@ -46,6 +70,19 @@ h2 {
   font-family: "Bitter", serif;
   font-weight: normal;
   font-size: 16px;
+}
+
+.top-header ul {
+  display: flex;
+  margin-top: 10px;
+}
+
+.top-header {
+  display: flex;
+  margin: 0 auto;
+  max-width: 70%;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Top Footer */
