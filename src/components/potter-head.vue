@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <div class="top-header">
+    <!-- <div class="top-header">
       <div>
           <h2>Developed with: PotterApi | TheHarryPotterDataBase</h2>
       </div>
@@ -23,12 +23,12 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <div class="logo">
       <router-link to="/"><h1>POTTER WIKI</h1></router-link>
     </div>
 
-    <div>
+    <div class="mt-4">
       <ul class="header-list">
         <li>
           <router-link to="/characters">
@@ -135,7 +135,7 @@ h2 {
   width: 100%;
   text-align: center;
   background: #00151c;
-  height: 202px;
+  height: 160px;
   color: white;
 }
 

@@ -48,7 +48,7 @@
                 :key="i"
                 :src="item.src"
                 >
-                <div class="overlay"><h2>Clique para <br> mais informações</h2></div>
+                <div class="overlay"><h2>Click here for <br> more information</h2></div>
                 </v-carousel-item>
             </v-carousel>
             <h1>Spin Off's</h1>

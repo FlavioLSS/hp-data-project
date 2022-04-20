@@ -172,17 +172,13 @@ h3{
 .youtube-container {
 	overflow: hidden;
 	width: 100%;
-	/* Keep it the right aspect-ratio */
 	aspect-ratio: 16/9;
-	/* No clicking/hover effects */
 	pointer-events: none;
 }
 
 .youtube-container iframe{
-		/* Extend it beyond the viewport... */
 		width: 300%;
 		height: 100%;
-		/* ...and bring it back again */
 		margin-left: -100%;
 }
 
