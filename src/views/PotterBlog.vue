@@ -1,43 +1,58 @@
 <template>
-    <div id="potterblog">
+    <div id="potterblog" class="pb-10">
         <h1 class="text-center mt-14 title">Potter Blog</h1>
         <hr>
         <div class="teste">
             <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
-            <div><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jessica-williams-callum-turner-jude-law-fiona-glascott-eddie-redmayne-fantastic-beasts-the-secrets-of-dumbledore-1639477622.jpg?crop=1.00xw:0.847xh;0,0&resize=1200:*" class="img-banner"></div>
+            <div><div class="youtube-container">
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/9-qkMqN2bCg?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=9-qkMqN2bCg&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                </div></div>
             <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
-            <v-btn color="primary" to="/fantasticbeastsarticle">Read more</v-btn>
+            <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
         </div>
         <div class="teste">
-            <h1 class="sub-title">People are really hyped about Hogwarts Legacy</h1>
-            <div><img src="https://gmedia.playstation.com/is/image/SIEPDC/hogwarts-legacy-screen-04-ps5-en-02oct20?$native$" class="img-banner"></div>
-            <p>The new game seems to bring something never seen before on Harry Potter games. A full on RPG experience! The gameplay trailer got everyone by surprise with some amazing details</p>
-            <v-btn color="primary" to="/hogwartslegacyarticle">Read more</v-btn>
-        </div>
-        <div class="teste">
-            <h1 class="sub-title">Should we have a Harry Potter saga reboot?</h1>
-            <div><img src="https://popeek.com.br/wp-content/uploads/2021/05/9.jpg" class="img-banner"></div>
-            <p>The Harry Potter saga will forever live in our hearts. But when is it time to consider a reboot? Nowadays with the astouning marvel movies we can see how the CGI got way more real, how would it affect the Wizard World?</p>
-            <v-btn color="primary" to="/hprebootarticle">Read more</v-btn>
-        </div>
-        <div class="teste">
-            <h1 class="sub-title">Did the old harry potter fans enjoy the 3rd fantastic beasts movie?</h1>
-            <div><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jessica-williams-callum-turner-jude-law-fiona-glascott-eddie-redmayne-fantastic-beasts-the-secrets-of-dumbledore-1639477622.jpg?crop=1.00xw:0.847xh;0,0&resize=1200:*" class="img-banner"></div>
+            <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
+            <div><div class="youtube-container">
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/9-qkMqN2bCg?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=9-qkMqN2bCg&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                </div></div>
             <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
-            <v-btn color="primary" to="/brazilianactorarticle">Read more</v-btn>
+            <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
+        </div>
+        <div class="teste">
+            <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
+            <div><div class="youtube-container">
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/9-qkMqN2bCg?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=9-qkMqN2bCg&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                </div></div>
+            <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
+            <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
+        </div>
+        <div class="teste">
+            <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
+            <div><div class="youtube-container">
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/9-qkMqN2bCg?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=9-qkMqN2bCg&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                </div></div>
+            <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
+            <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
         </div>
     </div>
 </template>
 
 <style scoped>
 #potterblog{
-    margin-bottom: 8em;
+    background: url('../assets/old-bg-2.jpg') no-repeat fixed;
+    background-size: cover;
 }
 
 .title{
     font-size: 3rem !important;
     margin-bottom: .6em;
-    font-family: 'Bitter', serif !important;
+    font-family: 'Special Elite', serif !important;
+}
+
+p{
+    font-family: 'Special Elite', serif !important;
+    font-weight: bold;
+    margin-top: 1em;
 }
 
 hr{
@@ -49,6 +64,7 @@ hr{
 
 .sub-title{
     color: rgba(0, 0, 0, 0.692);
+    font-family: 'Special Elite', serif !important;
 }
 
 .img-banner{
@@ -59,5 +75,18 @@ hr{
     max-width: 800px;
     margin: 0 auto;
     padding-top: 3em;
+}
+
+.youtube-container {
+	overflow: hidden;
+	width: 100%;
+	aspect-ratio: 16/9;
+	pointer-events: none;
+}
+
+.youtube-container iframe{
+		width: 300%;
+		height: 100%;
+		margin-left: -100%;
 }
 </style>
