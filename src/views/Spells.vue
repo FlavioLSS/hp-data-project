@@ -124,7 +124,7 @@
       async fetchUsers (item) {
         // Remove in 6 months and say
         // you've made optimizations! :)
-        await pause(1500)
+        await pause(15)
 
         return fetch('https://the-harry-potter-database.herokuapp.com/api/1/spells/all')
           .then(res => res.json())
