@@ -44,7 +44,7 @@
             <div class="momento">
                 <div><h2>"Você é um bruxo, Harry!"</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/lTQhUMNqwqo?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=lTQhUMNqwqo&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe class="trailer-v2" preload="auto" src="https://www.youtube.com/embed/lTQhUMNqwqo?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=lTQhUMNqwqo&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
                 </div>
             </div>
                 <div class="artigo">
@@ -53,13 +53,13 @@
         </div>
         <div class="part2">
             <div class="momento">
-                <div><h2>Rony se sacrifica na partida de xadrez bruxo</h2></div>
+                <div><h2>"Quanto a mim, eu serei o cavalo"</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/6rfsn0xXSrM?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=6rfsn0xXSrM&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe class="trailer-v2" preload="auto" src="https://www.youtube.com/embed/O2PzRv1ICQ8?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=O2PzRv1ICQ8&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>Grindelwald is a Seer - this means he has the ability to see glimpses of the future - and he enhances this by killing the baby Qilin, harnessing its own powers of precognition. Through Dumbledore, Newt conveys this message to the rest of the team: "our best hope is to confuse him" by having several plans instead of one. Furthermore, none of the characters can know the full extent of the plan, as Grindelwald would find a way to use this to his advantage. Dumbledore thus gives every character a separate task (at times intertwining with another's) and watches everyone from afar, ever ready to decide the next move depending on the current situation.</h3>
+                    <h3>Talvez essa seja a cena preferida de muita gente, Rony se sacrifica para que Harry e Hermione prossigam em busca da pedra filosofal. "Harry é você que tem que continuar, eu sei disso. Não sou eu e nem a Hermione. é você" depois dessas palavras de confiança no amigo, Rony faz sua jogada e prova mais uma vez o valor de uma amizade verdadeira. </h3>
                 </div>
         </div>
               

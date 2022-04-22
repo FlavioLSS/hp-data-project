@@ -1,25 +1,25 @@
 <template>
     <div class="modal">
-            <h2>Fantastic Beasts: Secrets of Dumbledore</h2>
+            <h2>Harry Potter e Camara Secreta</h2>
 
         <div class="part1">
 
             <div class="trailer">
 
-                <iframe class="trailer-v" src="https://www.youtube.com/embed/Y9dr2zw-TXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="trailer-v" src="https://www.youtube.com/embed/7ZBh_-Aa0Bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <v-row>
-                    <v-col col="6"><h3>Release Date: 2022</h3></v-col>
-                    <v-col col="6"><h3>Director: David Yates</h3></v-col>
+                    <v-col col="6"><h3>Release Date: 2002</h3></v-col>
+                    <v-col col="6"><h3>Director: Chris Columbus</h3></v-col>
                 </v-row>
 
                  <v-row>
-                    <v-col col="6"><h3>Box office: (coming soon)</h3></v-col>
-                    <v-col col="6"><h3>Score (Imdb): 7,6 / 10</h3></v-col>
+                    <v-col col="6"><h3>Box office: 879,6 milhões USD</h3></v-col>
+                    <v-col col="6"><h3>Score (Imdb): 7,4 / 10</h3></v-col>
                 </v-row>
             </div>
             <div class="sinopse">
                      <h2>Sinopsis</h2>
-                         <h3>In Bhutan 1932, Newt Scamander helps a Qilin — a magical creature that can see into one's soul as well as the future — give birth. Gellert Grindelwald's acolytes, led by Credence Barebone, attack and kill the mother, and kidnap the newborn. Grindelwald subsequently kills the creature to harness its ability of precognition. However, unbeknownst to them, the Qilin has given birth to twins, the younger of which Newt is able to save. <br>
+                         <h3>Após as sofríveis férias na casa dos tios, Harry Potter se prepara para voltar a Hogwarts e começar seu segundo ano na escola de bruxos. Na véspera do início das aulas, a estranha criatura Dobby aparece em seu quarto e o avisa de que voltar é um erro e que algo muito ruim pode acontecer se Harry insistir em continuar os estudos de bruxaria. O garoto, no entanto, está disposto a correr o risco e se livrar do lar problemático. <br>
                          <a target="_blank" href="https://en.wikipedia.org/wiki/Fantastic_Beasts:_The_Secrets_of_Dumbledore">
                               <v-btn class="mt-3">Read more</v-btn> 
                         </a>
@@ -31,24 +31,26 @@
                     <h2>Iconic moments</h2>
         <div class="part2">
             <div class="momento">
-                <div><h2>The blood pact</h2></div>
+                <div><h2>O carro voador dos Weasley's</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/7_cZcx5CDBA?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=7_cZcx5CDBA&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/JpHyJkyO1SI?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=JpHyJkyO1SI&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>During their teenage years, Albus Dumbledore and Gellert Grindelwald made a blood pact where they swore an oath never to fight each other - presumably as a fail-safe to ensure no rift were to set them apart in their grand endeavour to ignite the revolution between the magical and the non-magical aggregations wherein the former was intended to prevail in the end to mark an era of sovereignty over the latter, with Albus and Gellert spearheading it equally as unified leaders with neither wizard lesser or greater than the other. By 1927, Grindelwald still possessed the phial from this pact to protect it from Dumbledore, so that Dumbledore would not be able to ever attack him directly.[3] However, the pact worked both ways and was therefore a double-edged sword, as while it protected Grindelwald from Dumbledore, it also prevented Grindelwald himself from personally eliminating Dumbledore, the greatest threat to his cause.</h3>
+                    <h3>As cenas inicias do filme são meio pra baixo pelo fato de que Harry estava preso na casa dos Dursley e seus amigos não tinham mandado nenhuma carta (ou era isso que ele achava).
+                    mas pra quebrar o clima pesado a cena do Ford voador faz com que lembremos o motivo de assistimos Harry Potter.
+                    </h3>
                 </div>
         </div>
         <div class="part2">
             <div class="momento">
-                <div><h2>Dumbledore vs Credence</h2></div>
+                <div><h2>Aula de Duelos</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/ExjoPzlcjm0?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=ExjoPzlcjm0&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/EqtfAcvFP90?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=EqtfAcvFP90&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>In 1927, Gellert Grindewald told the Obscurial Credence Barebone, who had been searching for the family which had abandoned him, that he was a member of the Dumbledore family, and that they willingly discarded him. As a result of the abandonment, Credence was adopted by Mary Lou Barebone in New York, a descendant of the Scourers and leader of the New Salem Philanthropic Society. Barebone, who hated wizards, was aware of Credence's abilities, and abused him heavily as a result. Although he had escaped from her after being unmasked as an Obscurial, a wizard who had violently supressed his magic after attempting to hide it, Credence still wanted answers, and Grindelwald provided him with proof of his identity: a bird which had been following him was a phoenix, a mythological creature with strong ties to the Dumbledore bloodline.</h3>
+                    <h3>Gilderoy Lockhart vs. Severus Snape, Harry Potter vs. Draco Malfoy</h3>
                 </div>
         </div>
         <div class="part2">
