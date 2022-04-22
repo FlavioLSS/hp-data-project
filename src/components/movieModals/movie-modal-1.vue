@@ -6,21 +6,21 @@
 
             <div class="trailer">
 
-                <iframe class="trailer-v" src="https://www.youtube.com/embed/Y9dr2zw-TXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="trailer-v" width="560" height="315" src="https://www.youtube.com/embed/9fIObnIGMlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <v-row>
-                    <v-col col="6"><h3>Release Date: 2022</h3></v-col>
-                    <v-col col="6"><h3>Director: David Yates</h3></v-col>
+                    <v-col col="6"><h3>Release Date: 2001</h3></v-col>
+                    <v-col col="6"><h3>Director: Chris Columbus</h3></v-col>
                 </v-row>
 
                  <v-row>
-                    <v-col col="6"><h3>Box office: (coming soon)</h3></v-col>
+                    <v-col col="6"><h3>Box office: 974,8 milhões USD</h3></v-col>
                     <v-col col="6"><h3>Score (Imdb): 7,6 / 10</h3></v-col>
                 </v-row>
             </div>
             <div class="sinopse">
                      <h2>Sinopsis</h2>
-                         <h3>In Bhutan 1932, Newt Scamander helps a Qilin — a magical creature that can see into one's soul as well as the future — give birth. Gellert Grindelwald's acolytes, led by Credence Barebone, attack and kill the mother, and kidnap the newborn. Grindelwald subsequently kills the creature to harness its ability of precognition. However, unbeknownst to them, the Qilin has given birth to twins, the younger of which Newt is able to save. <br>
-                         <a target="_blank" href="https://en.wikipedia.org/wiki/Fantastic_Beasts:_The_Secrets_of_Dumbledore">
+                         <h3>Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger. <br>
+                         <a target="_blank" href="https://pt.wikipedia.org/wiki/Harry_Potter_e_a_Pedra_Filosofal_(filme)">
                               <v-btn class="mt-3">Read more</v-btn> 
                         </a>
                          </h3>
@@ -31,29 +31,29 @@
                     <h2>Iconic moments</h2>
         <div class="part2">
             <div class="momento">
-                <div><h2>The blood pact</h2></div>
+                <div><h2>É Wingardium Leviosa e não 'Leviosáh'</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/7_cZcx5CDBA?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=7_cZcx5CDBA&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/SSh8XnUmN_I?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=SSh8XnUmN_I&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>During their teenage years, Albus Dumbledore and Gellert Grindelwald made a blood pact where they swore an oath never to fight each other - presumably as a fail-safe to ensure no rift were to set them apart in their grand endeavour to ignite the revolution between the magical and the non-magical aggregations wherein the former was intended to prevail in the end to mark an era of sovereignty over the latter, with Albus and Gellert spearheading it equally as unified leaders with neither wizard lesser or greater than the other. By 1927, Grindelwald still possessed the phial from this pact to protect it from Dumbledore, so that Dumbledore would not be able to ever attack him directly.[3] However, the pact worked both ways and was therefore a double-edged sword, as while it protected Grindelwald from Dumbledore, it also prevented Grindelwald himself from personally eliminating Dumbledore, the greatest threat to his cause.</h3>
+                    <h3>Existem algumas cenas de Harry Potter que são marcantes e servem para caracterizar bem os personagens, mas se tem uma cena que com certeza consegue transmitir a personalidade de um personagem perfeitamente é a cena da Hermione dando uma bronca em Rony durante a aula de feitiços. Nessa cena icônica, talvez uma das mais icônicas do cinema, ela tenta ensinar a forma correta de falar o feitiço de levitação e ao mesmo tempo se exibe para Rony, que acaba ficando com raiva, o que leva posteriormente a uma das cenas que mais marcantes dos 3 bruxinhos na qual a Hermione assume a culpa em relação a confusão do troll no banheiro.</h3>
                 </div>
         </div>
         <div class="part2">
             <div class="momento">
-                <div><h2>Dumbledore vs Credence</h2></div>
+                <div><h2>"Você é um bruxo, Harry!"</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/ExjoPzlcjm0?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=ExjoPzlcjm0&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/lTQhUMNqwqo?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=lTQhUMNqwqo&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>In 1927, Gellert Grindewald told the Obscurial Credence Barebone, who had been searching for the family which had abandoned him, that he was a member of the Dumbledore family, and that they willingly discarded him. As a result of the abandonment, Credence was adopted by Mary Lou Barebone in New York, a descendant of the Scourers and leader of the New Salem Philanthropic Society. Barebone, who hated wizards, was aware of Credence's abilities, and abused him heavily as a result. Although he had escaped from her after being unmasked as an Obscurial, a wizard who had violently supressed his magic after attempting to hide it, Credence still wanted answers, and Grindelwald provided him with proof of his identity: a bird which had been following him was a phoenix, a mythological creature with strong ties to the Dumbledore bloodline.</h3>
+                    <h3>Logo depois do filme começar temos também uma das frases mais importantes do mundo de Harry Potter, dita por Hagrid logo depois dele entrar na casa dos Dursleys, "você é um bruxo, Harry!" a partir desse momento a vida de Harry vira de cabeça pra baixo e começa sua aventura.</h3>
                 </div>
         </div>
         <div class="part2">
             <div class="momento">
-                <div><h2>Dumbledore's Plan</h2></div>
+                <div><h2>Rony se sacrifica na partida de xadrez bruxo</h2></div>
                 <div class="youtube-container">
                     <iframe class="trailer-v2" src="https://www.youtube.com/embed/6rfsn0xXSrM?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=6rfsn0xXSrM&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
                 </div>
@@ -147,6 +147,7 @@ h3{
 .trailer-v2{
     width: 960px;
     height: 615px;
+    padding: 10px 0;
 }
 
 .momento{
