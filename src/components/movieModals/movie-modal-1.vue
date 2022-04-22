@@ -1,6 +1,6 @@
 <template>
     <div class="modal">
-            <h2>Fantastic Beasts: Secrets of Dumbledore</h2>
+            <h2>Harry Potter e a Pedra Filosofal</h2>
 
         <div class="part1">
 
