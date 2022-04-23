@@ -22,6 +22,9 @@
           <li>
               <img class="icons-th" src="../assets/vue js.png" alt="" />
           </li>
+          <li>
+              <img class="icons-th" src="../assets/vuetify.png" alt="" />
+          </li>
         </ul>
       </div>
     </div>
@@ -37,23 +40,31 @@
             <div>
               <h2 id="h2ctt">Developed by:</h2>
           </div>
-          <div class="ctt-1">
-              <h2>Flavio Silva</h2> 
-              <a target="_blank" href="https://github.com/FlavioLSS">
+          <div class="ctt-1 d-flex justify-space-between">
+              <div>
+                <h2>Flavio Silva</h2>  
+              </div> 
+              <div>
+                <a target="_blank" href="https://github.com/FlavioLSS">
               <img class="icons-th" src="../assets/Github.png" alt="">
               </a>
               <a target="blank" href="https://www.linkedin.com/in/flavio-silva-00176022b/">
                 <img class="icons-th" src="../assets/linkedin.png" alt="">
               </a> 
+              </div>
           </div>
-          <div class="ctt-1">
-              <h2>Tarcísio Sena</h2>
-              <a target="_blank" href="https://github.com/TLucas97">
+          <div class="ctt-1 d-flex justify-space-between">
+              <div>
+                <h2>Tarcísio Sena</h2>
+              </div>
+              <div>
+                <a target="_blank" href="https://github.com/TLucas97">
                 <img class="icons-th" src="../assets/Github.png" alt="">
               </a>
               <a target="_blank" href="https://www.linkedin.com/in/tarcísio-almeida-0a5577207/">
                  <img class="icons-th" src="../assets/linkedin.png" alt="">
               </a>
+              </div>
           </div>
         </div>
           </div>

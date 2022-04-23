@@ -9,12 +9,14 @@
             <h1>Explore the mysteries <br> inside the old Hogwarts</h1>
             <h2>Avaiable in all platforms</h2>
             <p>Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. For the first time, experience Hogwarts in the 1800s. Your character is a student who holds the key to an ancient secret that threatens to tear the wizarding world apart.</p>
-            <v-row class="ml-4 mt-13">
+            <v-row>
               <v-col cols="3">
                 <v-btn color="success">BUY NOW</v-btn>
               </v-col>
-              <v-col cols="3">
-                <v-btn color="error">WATCH GAMEPLAY ▶</v-btn>
+              <v-col cols="4">
+                <a target="_blank" href="https://www.youtube.com/watch?v=2AZmuZNu5LA">
+                  <v-btn color="error">WATCH GAMEPLAY ▶</v-btn>
+                </a>
               </v-col>
             </v-row>
           </v-col>
@@ -34,12 +36,14 @@
             <h1>Fantastic Beasts <br> Secrets of dumbledore</h1>
             <h2>Avaiable on theaters</h2>
             <p>Professor Albus Dumbledore knows the powerful Dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts Magizoologist Newt Scamander to lead an intrepid team of wizards, witches and one brave Muggle baker.</p>
-            <v-row class="ml-4 mt-13">
-              <v-col cols="4">
-                <v-btn color="primary">FAN'S RATINGS</v-btn>
+            <v-row>
+              <v-col cols="4" style="padding-right: 0 !important;">
+                <v-btn color="primary" to="/potterblog">READ MORE</v-btn>
               </v-col>
-              <v-col cols="3">
-                <v-btn color="error">WATCH TRAILER ▶</v-btn>
+              <v-col cols="3" style="padding-left: 0 !important;">
+                <a target="_blank" href="https://www.youtube.com/watch?v=Y9dr2zw-TXQ">
+                  <v-btn color="error">WATCH TRAILER ▶</v-btn>
+                </a>
               </v-col>
             </v-row>
           </v-col>
@@ -79,31 +83,22 @@ export default {
   width: 1200px;
   height: 1100px;
   margin-top: 2em;
+  padding: 1.5em;
 }
 
 .text-box-1 h1{
-  margin-top: .5em;
-  margin-left: 1em;
   text-transform: uppercase;
   font-family: "Bitter", serif;
 }
 
 .text-box-1 h2{
-  margin-top: .5em;
-  margin-left: 1.3em;
   text-transform: uppercase;
   font-family: "Bitter", serif;
   color: red;
 }
 
 .text-box-1 p{
-  margin-top: .5em;
-  margin-left: 1.9em;
   font-family: "Bitter", serif;
-}
-
-.trailer-v{
-    margin-top: 1em;
 }
 
 .youtube-container {
@@ -111,7 +106,6 @@ export default {
 	width: 100%;
 	aspect-ratio: 16/9;
 	pointer-events: none;
-  padding-right: 2em;
 }
 
 .youtube-container iframe{

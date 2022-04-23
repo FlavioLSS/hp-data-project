@@ -6,6 +6,7 @@
 
 <style scoped>
 #hogwartsLegacy{
+    background: url('../../assets/old-bg-2.jpg');
     height: 800px;
 }
 </style>
