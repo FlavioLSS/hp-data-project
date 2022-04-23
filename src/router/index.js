@@ -6,10 +6,10 @@ import Movies from "../views/Movies.vue";
 import Spells from "../views/Spells.vue";
 import Characters from "../views/Characters.vue";
 import PotterBlog from "../views/PotterBlog.vue";
-import fantasticBeastsArticle from "../views/Potter-Blog-Posts/fantastic-beasts-article.vue"
-import hogwartsLegacyArticle from "../views/Potter-Blog-Posts/hogwarts-legacy-article.vue"
-import hpRebootArticle from "../views/Potter-Blog-Posts/hp-reboot-article.vue"
-import brazilianActorArticle from "../views/Potter-Blog-Posts/brazilian-actor-article.vue"
+import fantasticBeastsArticle from "../views/potterblog-folder/fantastic-beasts-article.vue"
+import hogwartsLegacyArticle from "../views/potterblog-folder/hogwarts-legacy-article.vue"
+import hpRebootArticle from "../views/potterblog-folder/hp-reboot-article.vue"
+import brazilianActorArticle from "../views/potterblog-folder/brazilian-actor-article.vue"
 Vue.use(VueRouter);
 
 const routes = [

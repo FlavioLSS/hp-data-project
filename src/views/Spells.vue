@@ -3,7 +3,7 @@
     <div class="black-box">
     <v-card class="width-control">
       <v-card-title class="white--text text-h5 mt-5" style="background: black !important;">
-        List of spells
+        List of spells with details
       </v-card-title>
         <v-row
           class="pa-4"
@@ -19,7 +19,7 @@
           color="#033a4a"
           open-on-click
           transition
-          style="height: 700px; overflow: scroll; font-weight: bold; font-size: 1.2rem;"
+          style="height: 700px; overflow: scroll; font-weight: bold; font-size: 1.2rem; overflow-x: hidden !important;"
         >
           <template v-slot:prepend="{ item }">
             <v-icon v-if="!item.children">
@@ -59,16 +59,16 @@
                   <h2>Type: {{ selected.spell_type }}</h2>
               </div>
               <div class="mb-2">
-                <p>Pronunciation: <span class="font-weight-bold">{{ selected.pronunciation }}</span></p>
+                <p>Pronunciation: <span class="font-weight-bold special-elite">{{ selected.pronunciation }}</span></p>
               </div>
               <div class="subheading">
-                <p>Description: <span class="font-weight-bold">{{ selected.description }}</span></p>
+                <p>Description: <span class="font-weight-bold special-elite">{{ selected.description }}</span></p>
               </div>
               <div>
-                <p>Mention: <span class="font-weight-bold">{{ selected.mention }}</span></p>
+                <p>Mention: <span class="font-weight-bold special-elite">{{ selected.mention }}</span></p>
               </div>
               <div>
-                <p>Etymology: <span class="font-weight-bold">{{ selected.etymology }}</span></p>
+                <p>Etymology: <span class="font-weight-bold special-elite">{{ selected.etymology }}</span></p>
               </div>
             </v-card-text>
           </v-card>

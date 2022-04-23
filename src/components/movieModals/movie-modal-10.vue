@@ -30,23 +30,25 @@
                     <h2>Iconic moments</h2>
         <div class="part2">
             <div class="momento">
-                <div><h2>A safe house in Paris</h2></div>
+                <div><h2>Grindelwald kills Leta Lestrange</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/TYU1ysh18KE?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=TYU1ysh18KE&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/dWsbX5stRWWlkgIHOp" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
-                <div class="artigo">
-                    <h3>The trailer begins with a new secret meet-up between Dumbledore and Newt, discussing Newt’s impending trip to Paris. Dumbledore tells Newt of a ‘safe house’ – ‘should things go terribly wrong’. Or, alternatively, if Newt just fancies somewhere nice to go for a cup of tea. Oh, Dumbledore. Never change.</h3>
+                <div class="artigo pt-4">
+                    <h3>At the last moment, this was revealed to be a distraction in an effort to give Theseus, Newt, Tina, Jacob, Yusuf and Nagini time to get away. Leta destroyed Grindelwald's skull hookah with a powerful spell, exploding it and knocking over Vinda Rosier in the process. Right before being incinerated by the flames, she looked at the Scamander brothers and said "I love you", though it is unclear which of them she was speaking to. She told the others to leave before she was engulfed by the flames, which incinerated her.</h3>
                 </div>
         </div>
         <div class="part2">
             <div class="momento">
                 <div><h2>Nagini</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/ki9uL7wllXI?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=ki9uL7wllXI&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <div class="youtube-container">
+                    <iframe src="https://giphy.com/embed/X0x1nHPuvq6IhdktWQ" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                    </div>
                 </div>
             </div>
-                <div class="artigo">
+                <div class="artigo pt-4">
                     <h3>That’s right! Our first ‘gasp’ moment of this trailer reveals that Claudia Kim’s mysterious ‘circus attraction’ character can turn into a snake and is revealed to be called… ‘Nagini’. Well, we’ve heard that name before, haven’t we? Nagini is Voldemort’s loyal snake companion from the Harry Potter books.</h3>
                 </div>
         </div>
@@ -54,10 +56,10 @@
             <div class="momento">
                 <div><h2>Grindelwald escape</h2></div>
                 <div class="youtube-container">
-                    <img src="assets/gif/hp-test.gif" alt="">
+                    <iframe src="https://giphy.com/embed/Dauz31ptzlXh8vcrHW" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
-                <div class="artigo">
+                <div class="artigo pt-4">
                     <h3>Gellert Grindelwald's escape was an early conflict of the global wizarding war and a victory for the Dark Wizard Gellert Grindelwald and his Acolytes. It took place on a stormy night on 30 May 1927, in the skies and surrounding area of New York City, New York, USA, as the International Confederation of Wizards prepared Grindelwald's extradition to Europe.</h3>
                 </div>
         </div>

@@ -1,7 +1,11 @@
 <template>
   <v-app>
       <potter-head />
-      <router-view />
+      
+      <transition name="fade" mode="out-in">
+        <router-view />
+      </transition>
+
       <potter-footer/>
   </v-app>
 </template>
@@ -42,7 +46,7 @@ font-family: 'Special Elite', cursive;
   }
 
   ::-webkit-scrollbar{
-    width:16px;
+    width:10px;
 }
 
 ::-webkit-scrollbar-track{
@@ -51,11 +55,28 @@ font-family: 'Special Elite', cursive;
 
 ::-webkit-scrollbar-thumb{
     background: #ffffff;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
   a{
     text-decoration: none;
     color: black;
   }
+
+.special-elite{
+  font-family: 'Special Elite', serif !important;
+}
+
+/* Global component transition */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+/* Global component transition */
 </style>

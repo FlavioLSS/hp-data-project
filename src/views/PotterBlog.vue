@@ -4,35 +4,27 @@
         <hr>
         <div class="teste">
             <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
-            <div><div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/9-qkMqN2bCg?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=9-qkMqN2bCg&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
-                </div></div>
+            <div class="youtube-container">
+                    <iframe src="https://giphy.com/embed/uflTRbpTMu6gskQqbX" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                </div>
             <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
             <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
         </div>
         <div class="teste">
-            <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
-            <div><div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/9-qkMqN2bCg?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=9-qkMqN2bCg&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
-                </div></div>
-            <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
-            <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
+            <h1 class="sub-title">Do we need a Harry Potter Reboot?</h1>
+            <div class="youtube-container">
+                    <iframe src="https://giphy.com/embed/r9pUmjcRapyEqrrWYq" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                </div>
+            <p>The classic harry potter saga will always have a warm place in our hearts, but when is it time to consider a reboot?</p>
+            <v-btn class="white--text" color="black" to="/hprebootarticle">Read more</v-btn>
         </div>
         <div class="teste">
-            <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
-            <div><div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/9-qkMqN2bCg?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=9-qkMqN2bCg&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
-                </div></div>
-            <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
-            <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
-        </div>
-        <div class="teste">
-            <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
-            <div><div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/9-qkMqN2bCg?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=9-qkMqN2bCg&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
-                </div></div>
-            <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
-            <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
+            <h1 class="sub-title">Huge fan hype for the new upcoming game!</h1>
+            <div class="youtube-container">
+                    <iframe src="https://giphy.com/embed/BZSAM1Jiv6hctUg0ZF" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                </div>
+            <p>The hype just seems to get bigger and bigger as fans begin to show their exciting reactions to the new Harry Potter game.</p>
+            <v-btn class="white--text" color="black" to="/hogwartslegacyarticle">Read more</v-btn>
         </div>
     </div>
 </template>
@@ -75,6 +67,7 @@ hr{
     max-width: 800px;
     margin: 0 auto;
     padding-top: 3em;
+    padding-bottom: 2em;
 }
 
 .youtube-container {
