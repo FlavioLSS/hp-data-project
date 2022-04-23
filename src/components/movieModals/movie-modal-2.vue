@@ -33,7 +33,7 @@
             <div class="momento">
                 <div><h2>O carro voador dos Weasley's</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/JpHyJkyO1SI?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=JpHyJkyO1SI&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/fn71fptGDn51vcdD6D" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
@@ -42,11 +42,12 @@
                     </h3>
                 </div>
         </div>
+        
         <div class="part2">
             <div class="momento">
                 <div><h2>Aula de Duelos</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/EqtfAcvFP90?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=EqtfAcvFP90&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/yHvcbQkrflG5SGrwN2" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
@@ -57,7 +58,7 @@
             <div class="momento">
                 <div><h2>Hermione estava uma 'gatinha' nesse dia</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/2Qll5RxRftU?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=2Qll5RxRftU&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/HiwBI2moqmfe6MKDvQ" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
@@ -170,7 +171,7 @@ h3{
 .artigo{
     width: 960px;
     text-align: left;
-    margin-bottom: 30px;
+    margin: 20px 0;
 }
 
 .youtube-container {

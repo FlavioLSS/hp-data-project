@@ -6,20 +6,20 @@
 
             <div class="trailer">
 
-                <iframe class="trailer-v" src="https://www.youtube.com/embed/Y9dr2zw-TXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="trailer-v" src="https://www.youtube.com/embed/V_JtCbmkPA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <v-row>
-                    <v-col col="6"><h3>Release Date: 2022</h3></v-col>
-                    <v-col col="6"><h3>Director: David Yates</h3></v-col>
+                    <v-col col="6"><h3>Release Date: 2004</h3></v-col>
+                    <v-col col="6"><h3>Director: Alfonso Cuarón</h3></v-col>
                 </v-row>
 
                  <v-row>
-                    <v-col col="6"><h3>Box office: (coming soon)</h3></v-col>
-                    <v-col col="6"><h3>Score (Imdb): 7,6 / 10</h3></v-col>
+                    <v-col col="6"><h3>Box office: 797,4 milhões USD</h3></v-col>
+                    <v-col col="6"><h3>Score (Imdb): 7,9 / 10</h3></v-col>
                 </v-row>
             </div>
             <div class="sinopse">
                      <h2>Sinopsis</h2>
-                         <h3>In Bhutan 1932, Newt Scamander helps a Qilin — a magical creature that can see into one's soul as well as the future — give birth. Gellert Grindelwald's acolytes, led by Credence Barebone, attack and kill the mother, and kidnap the newborn. Grindelwald subsequently kills the creature to harness its ability of precognition. However, unbeknownst to them, the Qilin has given birth to twins, the younger of which Newt is able to save. <br>
+                         <h3>É o início do terceiro ano na escola de bruxaria Hogwarts. Harry, Ron e Hermione têm muito o que aprender. Mas uma ameaça ronda a escola e ela se chama Sirius Black. Após doze anos encarcerado na prisão de Azkaban, ele consegue escapar e volta para vingar seu mestre, Lord Voldemort. Para piorar, os Dementores, guardas supostamente enviados para proteger Hogwarts e seguir os passos de Black, parecem ser ameaças ainda mais perigosas.<br>
                          <a target="_blank" href="https://en.wikipedia.org/wiki/Fantastic_Beasts:_The_Secrets_of_Dumbledore">
                               <v-btn class="mt-3">Read more</v-btn> 
                         </a>
@@ -28,38 +28,42 @@
 
         </div>
 
-                    <h2>Iconic moments</h2>
+                              <h2>Iconic moments</h2>
         <div class="part2">
             <div class="momento">
-                <div><h2>The blood pact</h2></div>
+                <div><h2>"Boa não, Brilhante""</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/7_cZcx5CDBA?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=7_cZcx5CDBA&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/bqXoylx68I1WfylxuN" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>During their teenage years, Albus Dumbledore and Gellert Grindelwald made a blood pact where they swore an oath never to fight each other - presumably as a fail-safe to ensure no rift were to set them apart in their grand endeavour to ignite the revolution between the magical and the non-magical aggregations wherein the former was intended to prevail in the end to mark an era of sovereignty over the latter, with Albus and Gellert spearheading it equally as unified leaders with neither wizard lesser or greater than the other. By 1927, Grindelwald still possessed the phial from this pact to protect it from Dumbledore, so that Dumbledore would not be able to ever attack him directly.[3] However, the pact worked both ways and was therefore a double-edged sword, as while it protected Grindelwald from Dumbledore, it also prevented Grindelwald himself from personally eliminating Dumbledore, the greatest threat to his cause.</h3>
+                    <h3>Logo depois de Harry chegar a horgwarts nós temos a apresentação do Hipogrifo "Bicuço" que acaba bicando o Draco, então o pai de Draco, Lúcio, não gostou nada disso e fez o que pode para sacrificar o animal. Depois que utilizam o vira-tempo para tentar concertar as coisas, Hermione encontra Draco feliz ao ver que bicuço ia ser sacrificado e dá um bom soco no garoto e completa com "Essa foi boa" e mais uma vez Rony fala uma de suas frases icônicas "Boa não, Brilhante"
+                    </h3>
+                </div>
+        </div>
+        
+        <div class="part2">
+            <div class="momento">
+                <div><h2>Aula de Duelos</h2></div>
+                <div class="youtube-container">
+                    <iframe src="https://giphy.com/embed/yHvcbQkrflG5SGrwN2" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                </div>
+            </div>
+                <div class="artigo">
+                    <h3>Gilderoy Lockhart vs. Severus Snape, Harry Potter vs. Draco Malfoy. foram algumas partes icônicas dessa cena. A aula de duelos em si é uma das cenas mais engraçadas, intrigantes e reveladoras. foi nessa cena onde descobrimos que Harry era ofidioglota e os alunos começaram a supeitar que ele era o herdeiro de Salazar Sonserina. </h3>
                 </div>
         </div>
         <div class="part2">
             <div class="momento">
-                <div><h2>Dumbledore vs Credence</h2></div>
+                <div><h2>Hermione estava uma 'gatinha' nesse dia</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/ExjoPzlcjm0?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=ExjoPzlcjm0&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/HiwBI2moqmfe6MKDvQ" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>In 1927, Gellert Grindewald told the Obscurial Credence Barebone, who had been searching for the family which had abandoned him, that he was a member of the Dumbledore family, and that they willingly discarded him. As a result of the abandonment, Credence was adopted by Mary Lou Barebone in New York, a descendant of the Scourers and leader of the New Salem Philanthropic Society. Barebone, who hated wizards, was aware of Credence's abilities, and abused him heavily as a result. Although he had escaped from her after being unmasked as an Obscurial, a wizard who had violently supressed his magic after attempting to hide it, Credence still wanted answers, and Grindelwald provided him with proof of his identity: a bird which had been following him was a phoenix, a mythological creature with strong ties to the Dumbledore bloodline.</h3>
-                </div>
-        </div>
-        <div class="part2">
-            <div class="momento">
-                <div><h2>Dumbledore's Plan</h2></div>
-                <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/6rfsn0xXSrM?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=6rfsn0xXSrM&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
-                </div>
-            </div>
-                <div class="artigo">
-                    <h3>Grindelwald is a Seer - this means he has the ability to see glimpses of the future - and he enhances this by killing the baby Qilin, harnessing its own powers of precognition. Through Dumbledore, Newt conveys this message to the rest of the team: "our best hope is to confuse him" by having several plans instead of one. Furthermore, none of the characters can know the full extent of the plan, as Grindelwald would find a way to use this to his advantage. Dumbledore thus gives every character a separate task (at times intertwining with another's) and watches everyone from afar, ever ready to decide the next move depending on the current situation.</h3>
+                    <h3>A Poção Polissuco é fundamental em toda a trama de Harry Potter, mas ela foi apresentada pela primeira vez neste filme quando Hermione faz a mistura para permitir que o trio possa bisbilhotar a Sonserina. Vê-los sentados no banheiro, trabalhando sobre um caldeirão borbulhante, é uma cena que traz à mente estereótipos de bruxas e bruxos – da melhor maneira possível.
+                    Só que ela não esperava que o fio de cabelo que ela pegou pra ela na verdade era um pelo de gato, e bem, a poção polissuco não foi feita pra isso. E o resultado? Hermione virou uma espécie de gato humanoide (os furrys adoram -erik).
+                    </h3>
                 </div>
         </div>
               
@@ -166,7 +170,7 @@ h3{
 .artigo{
     width: 960px;
     text-align: left;
-    margin-bottom: 30px;
+    margin: 20px 0;
 }
 
 .youtube-container {

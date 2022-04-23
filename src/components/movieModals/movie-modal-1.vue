@@ -167,7 +167,7 @@ h3{
 .artigo{
     width: 960px;
     text-align: left;
-    margin-bottom: 30px;
+    margin: 20px 0;
 }
 
 .youtube-container {
