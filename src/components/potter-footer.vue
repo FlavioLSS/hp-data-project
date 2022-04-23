@@ -1,11 +1,12 @@
 <template>
      <div id="footer">
-          <div class="top-header">
+          <div class="footer1">
+
       <div>
-          <h2>Developed with: PotterApi | TheHarryPotterDataBase</h2>
-      </div>
-      <div>
-        <ul class="icons-header">
+        <ul class="icons-footer2">
+          <li class="itemf2">
+            <h4>Developed with: PotterApi | TheHarryPotterDataBase</h4>
+          </li>
           <li>
             <h4>Technologies used:</h4>
           </li>
@@ -72,12 +73,12 @@ h2 {
   font-size: 16px;
 }
 
-.top-header ul {
+.footer1 ul {
   display: flex;
   margin-top: 10px;
 }
 
-.top-header {
+.footer1 {
   display: flex;
   margin: 0 auto;
   max-width: 70%;
@@ -85,10 +86,23 @@ h2 {
   align-items: center;
 }
 
+.icons-footer2{
+  align-items: center;
+}
+
+.itemf2{
+  border-right: solid white 1px;
+  padding: 10px;
+}
+
 /* Top Footer */
 .top-footer ul {
   display: flex;
   margin-top: 10px;
+}
+
+.footer1 ul li{
+  margin: 0 10px 0 0;
 }
 
 .top-footer {
@@ -101,6 +115,7 @@ h2 {
 
 .icons-th{
     width: 40px;
+    height: 40px;
     border-radius: 5px;
     transition: .3s ease-in-out;
 
@@ -123,7 +138,6 @@ h2 {
 .ctt{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .ctt-1 h2{
@@ -139,9 +153,9 @@ h2 {
 
 .ctt-1{
     display: flex;
-    align-items: center;
     padding: 10px;
     border-top: 1px solid white;
+    align-items: center;
 }
 
 #h2ctt{
@@ -165,6 +179,7 @@ h2 {
     max-width: 365px;
     padding: 20px 0;
     color: #c2c2c2;
+    padding: 15px;
 }
 
 .text-footer h2 span {

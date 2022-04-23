@@ -50,18 +50,20 @@
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>Gilderoy Lockhart vs. Severus Snape, Harry Potter vs. Draco Malfoy</h3>
+                    <h3>Gilderoy Lockhart vs. Severus Snape, Harry Potter vs. Draco Malfoy. foram algumas partes icônicas dessa cena. A aula de duelos em si é uma das cenas mais engraçadas, intrigantes e reveladoras. foi nessa cena onde descobrimos que Harry era ofidioglota e os alunos começaram a supeitar que ele era o herdeiro de Salazar Sonserina. </h3>
                 </div>
         </div>
         <div class="part2">
             <div class="momento">
-                <div><h2>Dumbledore's Plan</h2></div>
+                <div><h2>Hermione estava uma 'gatinha' nesse dia</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/6rfsn0xXSrM?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=6rfsn0xXSrM&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/2Qll5RxRftU?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=2Qll5RxRftU&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>Grindelwald is a Seer - this means he has the ability to see glimpses of the future - and he enhances this by killing the baby Qilin, harnessing its own powers of precognition. Through Dumbledore, Newt conveys this message to the rest of the team: "our best hope is to confuse him" by having several plans instead of one. Furthermore, none of the characters can know the full extent of the plan, as Grindelwald would find a way to use this to his advantage. Dumbledore thus gives every character a separate task (at times intertwining with another's) and watches everyone from afar, ever ready to decide the next move depending on the current situation.</h3>
+                    <h3>A Poção Polissuco é fundamental em toda a trama de Harry Potter, mas ela foi apresentada pela primeira vez neste filme quando Hermione faz a mistura para permitir que o trio possa bisbilhotar a Sonserina. Vê-los sentados no banheiro, trabalhando sobre um caldeirão borbulhante, é uma cena que traz à mente estereótipos de bruxas e bruxos – da melhor maneira possível.
+                    Só que ela não esperava que o fio de cabelo que ela pegou pra ela na verdade era um pelo de gato, e bem, a poção polissuco não foi feita pra isso. E o resultado? Hermione virou uma espécie de gato humanoide (os furrys adoram -erik).
+                    </h3>
                 </div>
         </div>
               

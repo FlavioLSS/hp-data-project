@@ -41,6 +41,19 @@ font-family: 'Special Elite', cursive;
     text-transform: none;
   }
 
+  ::-webkit-scrollbar{
+    width:16px;
+}
+
+::-webkit-scrollbar-track{
+    background: #00151c;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffffff;
+    border-radius: 30px;
+}
+
   a{
     text-decoration: none;
     color: black;
