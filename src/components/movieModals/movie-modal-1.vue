@@ -33,7 +33,7 @@
             <div class="momento">
                 <div><h2>É Wingardium Leviosa e não 'Leviosáh'</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" src="https://www.youtube.com/embed/SSh8XnUmN_I?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=SSh8XnUmN_I&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/EKW43eCQ5JqRwvYpbu" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
@@ -44,7 +44,7 @@
             <div class="momento">
                 <div><h2>"Você é um bruxo, Harry!"</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" preload="auto" src="https://www.youtube.com/embed/lTQhUMNqwqo?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=lTQhUMNqwqo&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/o1XxNrkr15xarUs53d" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
@@ -55,7 +55,7 @@
             <div class="momento">
                 <div><h2>"Quanto a mim, eu serei o cavalo"</h2></div>
                 <div class="youtube-container">
-                    <iframe class="trailer-v2" preload="auto" src="https://www.youtube.com/embed/O2PzRv1ICQ8?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=O2PzRv1ICQ8&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay" allowfullscreen ></iframe>
+                    <iframe src="https://giphy.com/embed/uOPYA4TiBfzNpV0AnF" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
