@@ -1,6 +1,6 @@
 <template>
     <div class="modal">
-            <h2>Fantastic Beasts: Secrets of Dumbledore</h2>
+            <h2>Harry Potter e o Prisioneiro de Azkaban</h2>
 
         <div class="part1">
 
@@ -44,25 +44,24 @@
         
         <div class="part2">
             <div class="momento">
-                <div><h2>Aula de Duelos</h2></div>
+                <div><h2>Bicuço, sim ele de novo</h2></div>
                 <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed/yHvcbQkrflG5SGrwN2" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                    <iframe src="https://giphy.com/embed//fj5laDbAjnRUfWRelh" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>Gilderoy Lockhart vs. Severus Snape, Harry Potter vs. Draco Malfoy. foram algumas partes icônicas dessa cena. A aula de duelos em si é uma das cenas mais engraçadas, intrigantes e reveladoras. foi nessa cena onde descobrimos que Harry era ofidioglota e os alunos começaram a supeitar que ele era o herdeiro de Salazar Sonserina. </h3>
+                    <h3>Não é novidade pra ninguém que essa incrível criatura do mundo de Harry Potter é muito importante para o filme, então não tem como não reservar um espaço nessa lista para falar exclusivamente de uma das melhores cenas da franquia Harry Potter. O momento em que Harry voa com bicuço ficou marcado como um dos mais felizes de Harry (levando em conta que depois desse filme as coisas ficam cada vez mais sérias e somrbias, da pra entender) e por isso o Bicuço está aqui novamente, marcando bastante essa lista. </h3>
                 </div>
         </div>
         <div class="part2">
             <div class="momento">
-                <div><h2>Hermione estava uma 'gatinha' nesse dia</h2></div>
+                <div><h2>"Expecto Patronum!" </h2></div>
                 <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed/HiwBI2moqmfe6MKDvQ" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                    <iframe src="https://giphy.com/embed/P5i6ayTplHrsPQSNrm" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>A Poção Polissuco é fundamental em toda a trama de Harry Potter, mas ela foi apresentada pela primeira vez neste filme quando Hermione faz a mistura para permitir que o trio possa bisbilhotar a Sonserina. Vê-los sentados no banheiro, trabalhando sobre um caldeirão borbulhante, é uma cena que traz à mente estereótipos de bruxas e bruxos – da melhor maneira possível.
-                    Só que ela não esperava que o fio de cabelo que ela pegou pra ela na verdade era um pelo de gato, e bem, a poção polissuco não foi feita pra isso. E o resultado? Hermione virou uma espécie de gato humanoide (os furrys adoram -erik).
+                    <h3>"Não vem ninguém Harry, vocês estão morrendo..."  Naquele momento Harry entendeu, ele salvou a si mesmo no lago. O terceiro filme da franquia é um dos mais confusos, frenéticos e injustiçados (Mas com certeza um dos melhores) filmes da saga. E foi o filme que deixou marcado o feitiço do patrono, o feitiço mais icônico dentre os outros, uma magia avançada que repele os dementadores, Lupin ensinou essa magia ao Harry que dominou com certa facilidade, provando ser um ótimo bruxo.
                     </h3>
                 </div>
         </div>
