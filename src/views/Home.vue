@@ -14,7 +14,7 @@
                 <v-btn color="success">BUY NOW</v-btn>
               </v-col>
               <v-col cols="3">
-                <v-btn color="error">WATCH TRAILER ▶</v-btn>
+                <v-btn color="error">WATCH GAMEPLAY ▶</v-btn>
               </v-col>
             </v-row>
           </v-col>
