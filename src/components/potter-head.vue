@@ -7,6 +7,16 @@
     <div class="mt-4">
       <ul class="header-list">
         <li>
+          <router-link to="/potterblog">
+          <button class="btn">Potter Blog</button>
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/books">
+          <button class="btn">Books</button>
+          </router-link>
+        </li>
+        <li>
           <router-link to="/characters">
           <button class="btn">Characters</button>
           </router-link>
@@ -20,21 +30,6 @@
           <router-link to="/movies">
           <button class="btn">Movies</button>
           </router-link>
-        </li>
-        <li>
-          <router-link to="/books">
-          <button class="btn">Books</button>
-          </router-link>
-        </li>
-        <li>
-          <router-link to="/potterblog">
-          <button class="btn">Potter Blog</button>
-          </router-link>
-        </li>
-        <li>
-          <a target="blank" href="https://wiki.potterish.com/index.php/Página_principal">
-            <button class="btn">Dictionary</button>
-          </a>
         </li>
       </ul>
     </div>

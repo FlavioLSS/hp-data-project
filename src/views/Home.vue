@@ -20,7 +20,7 @@
           </v-col>
           <v-col cols="7">
             <div class="youtube-container">
-              <iframe class="trailer-v" src="https://www.youtube.com/embed/2AZmuZNu5LA?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=2AZmuZNu5LA&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="trailer-v" src="https://www.youtube.com/embed/1O6Qstncpnc?rel=0&amp;controls=0&amp;modestbranding=1&amp;autoplay=1&amp;playlist=1O6Qstncpnc&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </v-col>
         </v-row>

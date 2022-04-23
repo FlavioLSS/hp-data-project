@@ -1,13 +1,14 @@
 <template>
   <div class="spells">
+    <div class="black-box">
     <v-card class="width-control">
-    <v-card-title class="white--text text-h5 mt-5" style="background: #033a4a !important;">
-      List of spells
-    </v-card-title>
-    <v-row
-      class="pa-4"
-      justify="space-between"
-    >
+      <v-card-title class="white--text text-h5 mt-5" style="background: black !important;">
+        List of spells
+      </v-card-title>
+        <v-row
+          class="pa-4"
+          justify="space-between"
+        >
       <v-col cols="5">
         <v-treeview
           :active.sync="active"
@@ -18,7 +19,7 @@
           color="#033a4a"
           open-on-click
           transition
-          style="height: 700px; overflow: scroll;"
+          style="height: 700px; overflow: scroll; font-weight: bold; font-size: 1.2rem;"
         >
           <template v-slot:prepend="{ item }">
             <v-icon v-if="!item.children">
@@ -50,7 +51,7 @@
             max-width="700"
           >
             <v-card-text>
-              <img style="border: 3px solid black; margin-bottom: 2em; border-radius: 50% !important;" src="https://play-lh.googleusercontent.com/6h3QPThQZxv5F6hm_4xiprvuNd_JhGpjhsxwPpC2H1tNdMkvtd8JhFX_wwti8Sc4zg=w512" width="200">
+              <img style="border: 3px solid black; margin-bottom: 2em; border-radius: 50% !important;" src="https://media.pocketgamer.biz/2018/4/88481/harry-potter-hogwarts-mysteryicon-r225x.jpg" width="200">
               <h1>
                 {{ selected.name }}
               </h1>
@@ -75,6 +76,7 @@
       </v-col>
     </v-row>
   </v-card>
+    </div>
   </div>
 </template>
 
@@ -102,7 +104,7 @@
       items () {
         return [
           {
-            name: 'Spells',
+            name: 'Open spells',
             children: this.users,
           },
         ]
@@ -145,14 +147,17 @@ p{
 }
 
 .width-control{
-    width: 90%;
+    width: 55%;
     margin: 0 auto;
     margin-bottom: 3em;
     opacity: .8;
+    border-radius: 15px;
 }
 
 .spells{
     background: url('https://wallpapercave.com/wp/wp8172866.jpg') no-repeat fixed;
     background-size: cover;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 </style>

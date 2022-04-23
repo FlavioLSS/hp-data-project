@@ -48,7 +48,7 @@
 }
 
 #books{
-    background: url('../assets/old-bg.jpg') no-repeat fixed;
+    background: url('../assets/old-bg-2.jpg') no-repeat fixed;
     background-size: cover;
     
     h3:after{
