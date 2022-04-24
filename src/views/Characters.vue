@@ -42,22 +42,22 @@ export default {
         },
         { text: "House", value: "house" },
         { text: "Gender", value: "gender" },
-        { text: "Hair colour", value: "hairColour" },
-        { text: "Eye colour", value: "eyeColour" },
+        { text: "Hair colour", value: "hair_color" },
+        { text: "Eye colour", value: "eye_color" },
         { text: "Ancestry", value: "ancestry" },
         { text: "Patronus", value: "patronus" },
         { text: "Species", value: "species" },
-        { text: "Actor", value: "actor" },
-        { text: "Birth year", value: "yearOfBirth" },
-        { text: "Wand wood", value: "wand.wood" },
-        { text: "Wand core", value: "wand.core" },
+        { text: "Wand", value: "wand" },
+        { text: "Birth", value: "birth" },
+        { text: "Death", value: "death" },
+        { text: "Groups", value: "associated_groups" },
       ],
       hpData: [],
     };
   },
   mounted() {
     setTimeout(() => {
-      axios.get('https://hp-api.herokuapp.com/api/characters').then((res) => {
+      axios.get('https://the-harry-potter-database.herokuapp.com/api/1/characters/all').then((res) => {
       this.hpData = res.data
       this.loading = false
     })
