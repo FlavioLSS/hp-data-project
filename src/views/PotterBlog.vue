@@ -6,7 +6,7 @@
             <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
             <div class="youtube-container">
                     <iframe src="https://giphy.com/embed/uflTRbpTMu6gskQqbX" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
-                </div>
+            </div>
             <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
             <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
         </div>
