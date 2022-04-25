@@ -38,7 +38,7 @@
             <p>Professor Albus Dumbledore knows the powerful Dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts Magizoologist Newt Scamander to lead an intrepid team of wizards, witches and one brave Muggle baker.</p>
             <v-row>
               <v-col cols="4" style="padding-right: 0 !important;">
-                <v-btn color="primary" to="/potterblog">READ MORE</v-btn>
+                <router-link to="/potterblog"><v-btn color="primary">READ MORE</v-btn></router-link>
               </v-col>
               <v-col cols="3" style="padding-left: 0 !important;">
                 <a target="_blank" href="https://www.youtube.com/watch?v=Y9dr2zw-TXQ">
