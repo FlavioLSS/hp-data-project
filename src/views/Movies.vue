@@ -124,7 +124,7 @@ import movieModal11 from '../components/movieModals/movie-modal-11.vue'
             src: 'https://images5.alphacoders.com/113/thumb-1920-1130065.jpg',
           },
           {
-            src: 'https://4.bp.blogspot.com/-2o1D7e0DTRg/UpPQzrdb5YI/AAAAAAAAOQY/n4DMsJ3mCOM/s1600/wallpaper-odf-54-1280x1024.jpg',
+            src: 'https://2.bp.blogspot.com/-EHJoCiKYDrw/UpPL37-7--I/AAAAAAAAOF0/dPChqTIoaWM/s1600/wallpaper-odf-12-1280x1024.jpg',
           },
           {
             src: 'https://wallpapercave.com/wp/wp2291342.jpg',
