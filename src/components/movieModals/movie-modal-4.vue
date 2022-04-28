@@ -1,25 +1,25 @@
 <template>
     <div class="modal">
-            <h2>Fantastic Beasts: Secrets of Dumbledore</h2>
+            <h2>Harry Potter e o Cálice de Fogo</h2>
 
         <div class="part1">
 
             <div class="trailer">
 
-                <iframe class="trailer-v" src="https://www.youtube.com/embed/Y9dr2zw-TXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="trailer-v" src="https://www.youtube.com/embed/cVKkL4O60IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <v-row>
-                    <v-col col="6"><h3>Release Date: 2022</h3></v-col>
-                    <v-col col="6"><h3>Director: David Yates</h3></v-col>
+                    <v-col col="6"><h3>Release Date: 2005</h3></v-col>
+                    <v-col col="6"><h3>Director: Mike Newell</h3></v-col>
                 </v-row>
 
                  <v-row>
-                    <v-col col="6"><h3>Box office: (coming soon)</h3></v-col>
-                    <v-col col="6"><h3>Score (Imdb): 7,6 / 10</h3></v-col>
+                    <v-col col="6"><h3>Box office: 896,7 milhões USD</h3></v-col>
+                    <v-col col="6"><h3>Score (Imdb): 7,7 / 10</h3></v-col>
                 </v-row>
             </div>
             <div class="sinopse">
                      <h2>Sinopsis</h2>
-                         <h3>In Bhutan 1932, Newt Scamander helps a Qilin — a magical creature that can see into one's soul as well as the future — give birth. Gellert Grindelwald's acolytes, led by Credence Barebone, attack and kill the mother, and kidnap the newborn. Grindelwald subsequently kills the creature to harness its ability of precognition. However, unbeknownst to them, the Qilin has given birth to twins, the younger of which Newt is able to save. <br>
+                         <h3>Harry retorna para seu quarto ano na Escola de Magia e Bruxaria de Hogwarts, junto com os seus amigos Ron e Hermione. Desta vez, acontece um torneio entre as três maiores escola de magia, com um participante selecionado de cada escola, pelo Cálice de Fogo. O nome de Harry aparece, mesmo não tendo se inscrito, e ele precisa competir. <br>
                          <a target="_blank" href="https://en.wikipedia.org/wiki/Fantastic_Beasts:_The_Secrets_of_Dumbledore">
                               <v-btn class="mt-3">Read more</v-btn> 
                         </a>
@@ -31,38 +31,37 @@
      <h2>Iconic moments</h2>
         <div class="part2">
             <div class="momento">
-                <div><h2>"Boa não, Brilhante""</h2></div>
+                <div><h2>A escolha dos campeões</h2></div>
                 <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed/bqXoylx68I1WfylxuN" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                    <iframe src="https://giphy.com/embed/oQa7RMP3HDuvfKBd15" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>Logo depois de Harry chegar a horgwarts nós temos a apresentação do Hipogrifo "Bicuço" que acaba bicando o Draco, então o pai de Draco, Lúcio, não gostou nada disso e fez o que pode para sacrificar o animal. Depois que utilizam o vira-tempo para tentar concertar as coisas, Hermione encontra Draco feliz ao ver que bicuço ia ser sacrificado e dá um bom soco no garoto e completa com "Essa foi boa" e mais uma vez Rony fala uma de suas frases icônicas "Boa não, Brilhante"
+                    <h3>Durante a  seleção dos campeões de cada escola para o torneio tribruxo, houve uma reviravolta gigantesca quando o nome de Harry saiu do cálice de fogo. A expressão de preocupação no rosto de Dumbledore ficou bem clara nesse momento "Você colocou seu nome no cálice de fogo", a partir dai começou mais uma aventura na vida de Harry.
                     </h3>
                 </div>
         </div>
         
         <div class="part2">
             <div class="momento">
-                <div><h2>Bicuço, sim ele de novo</h2></div>
+                <div><h2>Canto dos sereianos</h2></div>
                 <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed//fj5laDbAjnRUfWRelh" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                    <iframe src="https://giphy.com/embed//MGxMsB1rGPV9LllI0X" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>Não é novidade pra ninguém que essa incrível criatura do mundo de Harry Potter é muito importante para o filme, então não tem como não reservar um espaço nessa lista para falar exclusivamente de uma das melhores cenas da franquia Harry Potter. O momento em que Harry voa com bicuço ficou marcado como um dos mais felizes de Harry (levando em conta que depois desse filme as coisas ficam cada vez mais sérias e somrbias, da pra entender) e por isso o Bicuço está aqui novamente, marcando bastante essa lista. </h3>
+                    <h3>Logo depois de "lutar" contra um dragão, Harry recebeu um conselho do Cedrico Diggory que ajudou Harry a desvendar a dica da segunda prova do torneio tribruxo ao levar o ovo dourado para o banheiro dos monitores do quinto andar e então deu um mergulho com o ovo. Claro que a Murta-que-geme não ia deixar a chance passar e ficou atazanando o Harry enquanto isso.</h3>
                 </div>
         </div>
         <div class="part2">
             <div class="momento">
-                <div><h2>"Expecto Patronum!" nesse dia</h2></div>
+                <div><h2>"Ele voltou!"</h2></div>
                 <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed/HiwBI2moqmfe6MKDvQ" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                    <iframe src="https://giphy.com/embed/vjCqaN7HehT0gtwema" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>A Poção Polissuco é fundamental em toda a trama de Harry Potter, mas ela foi apresentada pela primeira vez neste filme quando Hermione faz a mistura para permitir que o trio possa bisbilhotar a Sonserina. Vê-los sentados no banheiro, trabalhando sobre um caldeirão borbulhante, é uma cena que traz à mente estereótipos de bruxas e bruxos – da melhor maneira possível.
-                    Só que ela não esperava que o fio de cabelo que ela pegou pra ela na verdade era um pelo de gato, e bem, a poção polissuco não foi feita pra isso. E o resultado? Hermione virou uma espécie de gato humanoide (os furrys adoram -erik).
+                    <h3> De forma repentina, logo após a morte de Cedrico, Os Comensais da Morte realizam o ritual para reviver Lord Voldemort com o sangue de Harry Potter. E então começa uma nova era nos filmes de Harry Potter.
                     </h3>
                 </div>
         </div>     

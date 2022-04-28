@@ -1,25 +1,25 @@
 <template>
     <div class="modal">
-            <h2>Fantastic Beasts: Secrets of Dumbledore</h2>
+            <h2>Harry Potter e o Enigma do Principe</h2>
 
         <div class="part1">
 
             <div class="trailer">
 
-                <iframe class="trailer-v" src="https://www.youtube.com/embed/Y9dr2zw-TXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="trailer-v" src="https://www.youtube.com/embed/O5FS59Mos8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <v-row>
-                    <v-col col="6"><h3>Release Date: 2022</h3></v-col>
+                    <v-col col="6"><h3>Release Date: 2009</h3></v-col>
                     <v-col col="6"><h3>Director: David Yates</h3></v-col>
                 </v-row>
 
                  <v-row>
-                    <v-col col="6"><h3>Box office: (coming soon)</h3></v-col>
+                    <v-col col="6"><h3>Box office: 934,5 milhões USD </h3></v-col>
                     <v-col col="6"><h3>Score (Imdb): 7,6 / 10</h3></v-col>
                 </v-row>
             </div>
             <div class="sinopse">
                      <h2>Sinopsis</h2>
-                         <h3>In Bhutan 1932, Newt Scamander helps a Qilin — a magical creature that can see into one's soul as well as the future — give birth. Gellert Grindelwald's acolytes, led by Credence Barebone, attack and kill the mother, and kidnap the newborn. Grindelwald subsequently kills the creature to harness its ability of precognition. However, unbeknownst to them, the Qilin has given birth to twins, the younger of which Newt is able to save. <br>
+                         <h3>No sexto ano de Harry em Hogwarts, Lord Voldemort e seus Comensais da Morte estão criando o terror nos mundos bruxo e trouxa. Dumbledore convence seu velho amigo Horácio Slughorn para retornar a Hogwarts como professor de poções após Harry encontrar um estranho livro escolar. Draco Malfoy se esforça para realizar uma ação destinada por Voldemort, enquanto Dumbledore e Harry secretamente trabalham juntos a fim de descobrir o método para destruir o Lorde das Trevas uma vez por todas. <br>
                          <a target="_blank" href="https://en.wikipedia.org/wiki/Fantastic_Beasts:_The_Secrets_of_Dumbledore">
                               <v-btn class="mt-3">Read more</v-btn> 
                         </a>
@@ -31,20 +31,20 @@
      <h2>Iconic moments</h2>
         <div class="part2">
             <div class="momento">
-                <div><h2>"Boa não, Brilhante""</h2></div>
+                <div><h2>Poção do desespero</h2></div>
                 <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed/bqXoylx68I1WfylxuN" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+                    <iframe src="https://giphy.com/embed/BS6Izv1BKW04iYNXcD" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
                 <div class="artigo">
-                    <h3>Logo depois de Harry chegar a horgwarts nós temos a apresentação do Hipogrifo "Bicuço" que acaba bicando o Draco, então o pai de Draco, Lúcio, não gostou nada disso e fez o que pode para sacrificar o animal. Depois que utilizam o vira-tempo para tentar concertar as coisas, Hermione encontra Draco feliz ao ver que bicuço ia ser sacrificado e dá um bom soco no garoto e completa com "Essa foi boa" e mais uma vez Rony fala uma de suas frases icônicas "Boa não, Brilhante"
+                    <h3> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quia molestiae iste quam earum. Unde quo tempore nemo officiis sit id quos provident error, earum nisi debitis repudiandae. Assumenda, culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem itaque, nobis, quisquam quae magni error quidem deserunt esse quas, repudiandae animi iste iusto. Similique accusamus eos ab tempora nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur amet voluptas voluptatum labore beatae at recusandae eveniet autem, nobis distinctio magnam? Sequi, cupiditate illo corrupti neque quibusdam provident laboriosam.
                     </h3>
                 </div>
         </div>
         
         <div class="part2">
             <div class="momento">
-                <div><h2>Bicuço, sim ele de novo</h2></div>
+                <div><h2>A quase morte de Draco Malfoy</h2></div>
                 <div class="youtube-container">
                     <iframe src="https://giphy.com/embed//fj5laDbAjnRUfWRelh" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>

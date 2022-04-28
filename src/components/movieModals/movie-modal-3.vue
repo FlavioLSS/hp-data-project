@@ -31,7 +31,7 @@
                               <h2>Iconic moments</h2>
         <div class="part2">
             <div class="momento">
-                <div><h2>"Boa não, Brilhante""</h2></div>
+                <div><h2>"Boa não, Brilhante"</h2></div>
                 <div class="youtube-container">
                     <iframe src="https://giphy.com/embed/bqXoylx68I1WfylxuN" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
                 </div>
