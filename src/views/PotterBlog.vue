@@ -24,7 +24,6 @@
 #potter-blog{
     background: url('../assets/potter.jpg') no-repeat center;
     background-size: cover;
-    height: 100%;
     text-align: center;
     color: white;
 }
@@ -63,6 +62,7 @@ h2{
     height: auto;
     width: 920px;
     background: rgba(255, 253, 253, 0.6);
+    margin: 20px 0;
 }
 
 .article p{
@@ -71,11 +71,21 @@ h2{
 }
 
 .btn{
+    font-family: 'Bitter', serif;
     border: 1px solid black;
+    margin: 10px;
     padding: 10px;
     width: 150px;
     color: white;
     background: black;
+    border-radius: 8px;
+    transition: 0.2s ease-out;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+
 }
 
 .trailer-v2{
