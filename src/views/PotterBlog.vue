@@ -1,75 +1,86 @@
 <template>
-    <div id="potterblog" class="pb-10">
-        <h1 class="text-center mt-14 title">Potter Blog</h1>
-        <hr>
-        <div class="teste">
-            <h1 class="sub-title">Fans react to the new Fantastic Beasts movie</h1>
-            <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed/uflTRbpTMu6gskQqbX" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
-            </div>
-            <p>Fans seemed to be a little divided between reactions about the new movie. Although it brings a never seems perspective from the old magic world something doenst seem to fit like the old movies did.</p>
-            <v-btn class="white--text" color="black" to="/fantasticbeastsarticle">Read more</v-btn>
-        </div>
-        <div class="teste">
-            <h1 class="sub-title">Do we need a Harry Potter Reboot?</h1>
-            <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed/r9pUmjcRapyEqrrWYq" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
+    <div id="potter-blog">
+        <h1>Potter Blog</h1>
+        <div class="articles-g">
+            <div class="article">
+                <h2>O que podemos esperar de Hogwarts Legacy?</h2>
+                 <div class="youtube-container">
+                    <iframe class="trailer-v2" src="https://giphy.com/embed/mXj5sPCUCtbxkdjNTx" frameBorder="0"  allowFullScreen></iframe>
                 </div>
-            <p>The classic harry potter saga will always have a warm place in our hearts, but when is it time to consider a reboot?</p>
-            <v-btn class="white--text" color="black" to="/hprebootarticle">Read more</v-btn>
-        </div>
-        <div class="teste">
-            <h1 class="sub-title">Huge fan hype for the new upcoming game!</h1>
-            <div class="youtube-container">
-                    <iframe src="https://giphy.com/embed/BZSAM1Jiv6hctUg0ZF" class="trailer-v2" frameBorder="0" allowFullScreen></iframe>
-                </div>
-            <p>The hype just seems to get bigger and bigger as fans begin to show their exciting reactions to the new Harry Potter game.</p>
-            <v-btn class="white--text" color="black" to="/hogwartslegacyarticle">Read more</v-btn>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fugit consectetur quidem nisi quasi error laborum, laudantium, voluptatibus ea porro perferendis id magnam possimus? Amet, voluptates impedit. Iste, saepe quas.</p>
+                    <button class="btn">Read More</button>
+
+             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
-#potterblog{
-    background: url('../assets/old-bg-2.jpg') no-repeat fixed;
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative&family=Special+Elite&display=swap');
+#potter-blog{
+    background: url('../assets/potter.jpg') no-repeat center;
     background-size: cover;
+    height: 100%;
+    text-align: center;
+    color: white;
 }
 
-.title{
-    font-size: 3rem !important;
-    margin-bottom: .6em;
-    font-family: 'Special Elite', serif !important;
+h1{
+    padding: 20px;
+    font-family: 'Cinzel Decorative', 'cursive';
+    font-size: 42px;
 }
 
-p{
-    font-family: 'Special Elite', serif !important;
-    font-weight: bold;
-    margin-top: 1em;
+h1::after{
+  content: "";
+  background: white;
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 10px auto;
 }
 
-hr{
-    width: 5%;
-    padding-bottom: .2em;
+h2{
+    font-family: 'Bitter', serif;
+    padding: 5px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid black;
+}
+
+.articles-g{
+    display: flex;
+    justify-content: center;
+}
+
+.article{
+    height: auto;
+    width: 920px;
+    background: rgba(255, 253, 253, 0.6);
+}
+
+.article p{
+    color: black;
+    text-align: left;
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+    color: white;
     background: black;
-    margin: 0 auto;
 }
 
-.sub-title{
-    color: rgba(0, 0, 0, 0.692);
-    font-family: 'Special Elite', serif !important;
+.trailer-v2{
+    padding: 10px 0;
 }
-
-.img-banner{
-    width: 100%;
-}
-
-.teste{
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 3em;
-    padding-bottom: 2em;
-}
-
 .youtube-container {
 	overflow: hidden;
 	width: 100%;
