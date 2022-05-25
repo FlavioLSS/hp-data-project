@@ -1,6 +1,5 @@
 <template>
     <div id="potter-blog">
-        <h1>Potter Blog</h1>
         <div class="articles-g">
             <div class="article">
                 <h2>O que podemos esperar de Hogwarts Legacy?</h2>
@@ -27,21 +26,7 @@
     text-align: center;
     color: white;
 }
-
-h1{
-    padding: 20px;
-    font-family: 'Cinzel Decorative', 'cursive';
-    font-size: 42px;
-}
-
-h1::after{
-  content: "";
-  background: white;
-  display: block;
-  width: 60px;
-  height: 3px;
-  margin: 10px auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
 
 h2{
     font-family: 'Bitter', serif;
@@ -49,7 +34,6 @@ h2{
     font-size: 28px;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
-    background: rgba(255, 255, 255, 0.8);
     border-bottom: 2px solid black;
 }
 
@@ -60,14 +44,20 @@ h2{
 
 .article{
     height: auto;
-    width: 920px;
-    background: rgba(255, 253, 253, 0.6);
+    width: 1200px;
+    background: #C3B9AF;
     margin: 20px 0;
+    border-radius: 50px;
 }
 
 .article p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
     color: black;
     text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .btn{
@@ -89,7 +79,7 @@ h2{
 }
 
 .trailer-v2{
-    padding: 10px 0;
+    padding: 50px;
 }
 .youtube-container {
 	overflow: hidden;

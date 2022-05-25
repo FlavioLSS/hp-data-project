@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <div class="logo">
-      <router-link to="/"><h1>POTTER WIKI</h1></router-link>
+      <router-link to="/"><h1 class="tracking-in-expand">POTTER WIKI</h1></router-link>
     </div>
 
     <div class="mt-4">
